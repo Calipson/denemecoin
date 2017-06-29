@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<TS version="2.0" language="cs">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Denemecoin</source>
-        <translation>A Bitcoinról</translation>
+        <translation>O Denemecoinu</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Denemecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; verzió</translation>
+        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -23,20 +23,21 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Ez egy kísérleti program.
-MIT/X11 szoftverlicenc alatt kiadva, lásd a mellékelt fájlt COPYING vagy http://www.opensource.org/licenses/mit-license.php.
+Tohle je experimentální program.
 
-Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (http://www.openssl.org/) és kriptográfiai szoftvertben való felhasználásra,  írta Eric Young (eay@cryptsoft.com) és UPnP szoftver, írta Thomas Bernard.</translation>
+Šířen pod licencí MIT/X11, viz přiložený soubor COPYING nebo http://www.opensource.org/licenses/mit-license.php.
+
+Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu (http://www.openssl.org/) a kryptografický program od Erika Younga (eay@cryptsoft.com) a program UPnP od Thomase Bernarda.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+17"/>
         <source>Copyright</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>2009-%1 The Bitcoin and Denemecoin developers</source>
-        <translation type="unfinished"></translation>
+        <translation>2009-%1 Vývojáři Bitcoin a Denemecoin</translation>
     </message>
 </context>
 <context>
@@ -44,107 +45,107 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Címjegyzék</translation>
+        <translation>Adresář</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dupla-katt a cím vagy a címke szerkesztéséhez</translation>
+        <translation>Dvojklikem myši začneš upravovat označení adresy</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Új cím létrehozása</translation>
+        <translation>Vytvoř novou adresu</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>A kiválasztott cím másolása a vágólapra</translation>
+        <translation>Zkopíruj aktuálně vybranou adresu do systémové schránky</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Új cím</translation>
+        <translation>Nová &amp;adresa</translation>
     </message>
     <message>
         <location line="-46"/>
         <source>These are your Denemecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a Denemecoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <translation>Tohle jsou tvé Denemecoinové adresy pro příjem plateb. Můžeš pokaždé dát každému odesílateli jinou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location line="+60"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Cím másolása</translation>
+        <translation>&amp;Kopíruj adresu</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraz &amp;QR kód</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Denemecoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;depiš zprávu</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Smaž zvolenou adresu ze seznamu</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Verify a message to ensure it was signed with a specified Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Denemecoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ověř zprávu</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Törlés</translation>
+        <translation>S&amp;maž</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Címke &amp;másolása</translation>
+        <translation>Kopíruj &amp;označení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uprav</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation type="unfinished"></translation>
+        <translation>Pošli &amp;Mince</translation>
     </message>
     <message>
         <location line="+263"/>
         <source>Export Address Book Data</source>
-        <translation>Címjegyzék adatainak exportálása</translation>
+        <translation>Exportuj data adresáře</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*. csv)</translation>
+        <translation>CSV formát (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Hiba exportálás közben</translation>
+        <translation>Chyba při exportu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 nevű fájl nem írható.</translation>
+        <translation>Nemohu zapisovat do souboru %1.</translation>
     </message>
 </context>
 <context>
@@ -152,17 +153,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../addresstablemodel.cpp" line="+146"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>Označení</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(nincs címke)</translation>
+        <translation>(bez označení)</translation>
     </message>
 </context>
 <context>
@@ -170,99 +171,99 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Změna hesla</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Add meg a jelszót</translation>
+        <translation>Zadej platné heslo</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Új jelszó</translation>
+        <translation>Zadej nové heslo</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Új jelszó újra</translation>
+        <translation>Totéž heslo ještě jednou</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Írd be az új jelszót a tárcához.&lt;br/&gt;Használj legalább 10&lt;br/&gt;véletlenszerű karaktert&lt;/b&gt; vagy &lt;b&gt;legalább nyolc szót&lt;/b&gt;.</translation>
+        <translation>Zadej nové heslo k peněžence.&lt;br/&gt;Použij &lt;b&gt;alespoň 10 náhodných znaků&lt;/b&gt; nebo &lt;b&gt;alespoň osm slov&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Tárca kódolása</translation>
+        <translation>Zašifruj peněženku</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>A tárcád megnyitásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>K provedení této operace musíš zadat heslo k peněžence, aby se mohla odemknout.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Tárca megnyitása</translation>
+        <translation>Odemkni peněženku</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>A tárcád dekódolásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>K provedení této operace musíš zadat heslo k peněžence, aby se mohla dešifrovat.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Tárca dekódolása</translation>
+        <translation>Dešifruj peněženku</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Jelszó megváltoztatása</translation>
+        <translation>Změň heslo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Írd be a tárca régi és új jelszavát.</translation>
+        <translation>Zadej staré a nové heslo k peněžence.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DenemecoinS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY DenemecoinY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>DŮLEŽITÉ: Všechny předchozí zálohy peněženky by měly být nahrazeny nově vygenerovanou, zašifrovanou peněženkou. Z bezpečnostních důvodů budou předchozí zálohy nešifrované peněženky nepoužitelné, jakmile zaneš používat novou zašifrovanou peněženku.</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozornění: Caps Lock je zapnutý!</translation>
     </message>
     <message>
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Tárca kódolva</translation>
+        <translation>Peněženka je zašifrována</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Denemecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Denemecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Denemecoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <translation>Denemecoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých Denemecoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -270,40 +271,40 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Tárca kódolása sikertelen.</translation>
+        <translation>Zašifrování peněženky selhalo</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Tárca kódolása belső hiba miatt sikertelen. A tárcád nem lett kódolva.</translation>
+        <translation>Zašifrování peněženky selhalo kvůli vnitřní chybě. Tvá peněženka tedy nebyla zašifrována.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>A megadott jelszavak nem egyeznek.</translation>
+        <translation>Zadaná hesla nejsou shodná.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Tárca megnyitása sikertelen</translation>
+        <translation>Odemčení peněženky selhalo</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Hibás jelszó.</translation>
+        <translation>Nezadal jsi správné heslo pro dešifrování peněženky.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekódolás sikertelen.</translation>
+        <translation>Dešifrování peněženky selhalo</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Jelszó megváltoztatva.</translation>
+        <translation>Heslo k peněžence bylo v pořádku změněno.</translation>
     </message>
 </context>
 <context>
@@ -311,348 +312,356 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../bitcoin.cpp" line="+118"/>
         <source>A fatal error occurred. Denemecoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stala se fatální chyba. Denemecoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+74"/>
         <location line="+565"/>
         <source>Denemecoin</source>
-        <translation type="unfinished">Denemecoin</translation>
+        <translation>Denemecoin</translation>
     </message>
     <message>
         <location line="-565"/>
         <source>Wallet</source>
-        <translation type="unfinished">Tárca</translation>
+        <translation>Peněženka</translation>
     </message>
     <message>
         <location line="+142"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Áttekintés</translation>
+        <translation>&amp;Přehled</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Tárca általános áttekintése</translation>
+        <translation>Zobraz celkový přehled peněženky</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">Érmék &amp;küldése</translation>
+        <translation>P&amp;oslání mincí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send coins to a Denemecoin address</source>
-        <translation type="unfinished">Érmék küldése megadott címre</translation>
+        <translation>Pošli mince na Denemecoinovou adresu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Receive coins</source>
-        <translation type="unfinished">Érmék &amp;fogadása</translation>
+        <translation>Pří&amp;jem mincí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished">Kiizetést fogadó címek listája</translation>
+        <translation>Zobraz seznam adres pro příjem plateb</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Tranzakciók</translation>
+        <translation>&amp;Transakce</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Tranzakciótörténet megtekintése</translation>
+        <translation>Procházet historii transakcí</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Address Book</source>
-        <translation type="unfinished">Cím&amp;jegyzék</translation>
+        <translation>&amp;Adresář</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished">Tárolt címek és címkék listájának szerkesztése</translation>
+        <translation>Uprav seznam uložených adres a jejich označení</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Manage Names</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Správa Jmen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Manage names registered via Denemecoin</source>
-        <translation type="unfinished"></translation>
+        <translation>Správa jmen registrovaných skrze Denemecoin</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Kilépés</translation>
+        <translation>&amp;Konec</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation type="unfinished">Kilépés</translation>
+        <translation>Ukončit aplikaci</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;About Denemecoin</source>
-        <translation type="unfinished">&amp;A Bitcoinról</translation>
+        <translation>O &amp;Denemecoinu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Denemecoin</source>
-        <translation type="unfinished">Információk a Bitcoinról</translation>
+        <translation>Zobraz informace o Denemecoinu</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">A &amp;Qt-ról</translation>
+        <translation>O &amp;Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Információk a Qt ról</translation>
+        <translation>Zobraz informace o Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished">&amp;Opciók...</translation>
+        <translation>&amp;Možnosti...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modify configuration options for Denemecoin</source>
-        <translation type="unfinished">Denemecoin konfigurációs opciók</translation>
+        <translation>Uprav nastavení Denemecoinu</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zobraz/Skryj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraz nebo skryj hlavní okno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished">Tárca &amp;kódolása...</translation>
+        <translation>Zaši&amp;fruj peněženku...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zazálohuj peněženku...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"></translation>
+        <translation>Zazálohuj peněženku na jiné místo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished">Jelszó &amp;megváltoztatása...</translation>
+        <translation>Změň &amp;heslo...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Tárcakódoló jelszó megváltoztatása</translation>
+        <translation>Změň heslo k šifrování peněženky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;depiš zprávu...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Sign messages with your Denemecoin addresses to prove you own them</source>
-        <translation type="unfinished"></translation>
+        <translation>Podepiš zprávy svými Denemecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verify messages to ensure they were signed with specified Denemecoin addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Denemecoinovými adresami</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Export...</source>
-        <translation type="unfinished">&amp;Exportálás...</translation>
+        <translation>&amp;Export...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Jelenlegi nézet exportálása fájlba</translation>
+        <translation>Exportovat data z tohoto panelu do souboru</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ladicí okno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevři ladicí a diagnostickou konzoli</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fájl</translation>
+        <translation>&amp;Soubor</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Beállítások</translation>
+        <translation>&amp;Nastavení</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Súgó</translation>
+        <translation>Ná&amp;pověda</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Fül eszköztár</translation>
+        <translation>Panel s listy</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Actions toolbar</source>
-        <translation type="unfinished">Parancsok eszköztár</translation>
+        <translation>Panel akcí</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+81"/>
         <source>[testnet]</source>
-        <translation type="unfinished">[teszthálózat]</translation>
+        <translation>[testnet]</translation>
     </message>
     <message>
         <location line="-5"/>
         <location line="+5"/>
         <source>Denemecoin client</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+81"/>
         <source>%n active connection(s) to Denemecoin network</source>
-        <translation type="unfinished">
-            <numerusform>%n aktív kapcsolat a Denemecoin-hálózattal</numerusform>
+        <translation>
+            <numerusform>%n aktivní spojení do Denemecoinové sítě</numerusform>
+            <numerusform>%n aktivní spojení do Denemecoinové sítě</numerusform>
+            <numerusform>%n aktivních spojení do Denemecoinové sítě</numerusform>
         </translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">Szinkronizálás a hálózattal...</translation>
+        <translation>Synchronizuji se sítí...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Importing blocks from disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importuji bloky z disku...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpracováno %1 z přibližně %2 bloků transakční historie.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpracováno %1 bloků transakční historie.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Up to date</source>
-        <translation type="unfinished">Naprakész</translation>
+        <translation>Aktuální</translation>
     </message>
     <message numerus="yes">
         <location line="+14"/>
         <source>%n hour(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>hodinu</numerusform>
+            <numerusform>%n hodiny</numerusform>
+            <numerusform>%n hodin</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>den</numerusform>
+            <numerusform>%n dny</numerusform>
+            <numerusform>%n dnů</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>týden</numerusform>
+            <numerusform>%n týdny</numerusform>
+            <numerusform>%n týdnů</numerusform>
         </translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 behind</source>
-        <translation type="unfinished"></translation>
+        <translation>Stahuji ještě bloky transakcí za poslední %1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Catching up...</source>
-        <translation type="unfinished">Frissítés...</translation>
+        <translation>Stahuji...</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poslední stažený blok byl vygenerován %1 zpátky.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Následné transakce ještě nebudou vidět.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation>Upozornění</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informace</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tahle transakce přesahuje velikostní limit. I tak ji ale můžeš poslat, pokud za ni zaplatíš poplatek %1, který půjde uzlům, které tvou transakci zpracují, a navíc tak podpoříš síť. Chceš zaplatit poplatek?</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Confirm transaction fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrď transakční poplatek</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Sent transaction</source>
-        <translation type="unfinished">Tranzakció elküldve.</translation>
+        <translation>Odeslané transakce</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Beérkező tranzakció</translation>
+        <translation>Příchozí transakce</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -661,63 +670,63 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished">Dátum: %1
-Összeg: %2
-Típus: %3
-Cím: %4
+        <translation>Datum: %1
+Částka: %2
+Typ: %3
+Adresa: %4
 </translation>
     </message>
     <message>
         <location line="+112"/>
         <location line="+28"/>
         <source>URI handling</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpracování URI</translation>
     </message>
     <message>
         <location line="-28"/>
         <location line="+28"/>
         <source>URI can not be parsed! This can be caused by an invalid Denemecoin address or malformed URI parameters.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Denemecoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;nyitva&lt;/b&gt;.</translation>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Backup Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Záloha peněženky</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"></translation>
+        <translation>Data peněženky (*.dat)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Zálohování selhalo</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation>Při ukládání peněženky na nové místo se přihodila nějaká chyba.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation type="unfinished"></translation>
+        <translation>Úspěšně zazálohováno</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation>Data z peněženky byly v pořádku uloženy na nové místo.</translation>
     </message>
 </context>
 <context>
@@ -725,34 +734,36 @@ Cím: %4
     <message>
         <location filename="../forms/configurenamedialog.ui" line="+20"/>
         <source>Configure Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení Jména</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno:</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>&amp;Data:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Data:</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>D&amp;NS Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení D&amp;NS</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Name servers:
 (one per line,
 host or IP)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nameservery:
+(jeden na řádku,
+adresa nebo IP)</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter substitution name that will be used in DNS queries.&lt;/p&gt;&lt;p&gt;For example: bitcoin.org&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zadej náhradní jméno které bude použito pro DNS dotazy.&lt;/p&gt;&lt;p&gt;Příklad: bitcoin.org&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -762,51 +773,58 @@ ns1.web-sweet-web.net
 ns0.xname.org
 1.2.3.4
 1.2.3.5</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej nameservery v podobě hostname (vhodnější) nebo IP adresy. Příklad:
+ns0.web-sweet-web.net
+ns1.web-sweet-web.net
+ns0.xname.org
+1.2.3.4
+1.2.3.5</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>T&amp;ranslate name:
 (optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Překlad jména:
+(nepovinný)</translation>
     </message>
     <message>
         <location line="+21"/>
         <location line="+94"/>
         <source>&amp;SSL fingerprint:
 (optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otisk SSL:
+(nepovinný)</translation>
     </message>
     <message>
         <location line="-80"/>
         <location line="+73"/>
         <source>Enter SSL certificate fingerprint if you want to use HTTPS</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej otisk (fingerprint) SSL certifikátu, jestli chceš používat HTTPS</translation>
     </message>
     <message>
         <location line="-33"/>
         <source>&amp;IP Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení &amp;IP</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>I&amp;P Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;P Adresa:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>IP address, e.g. 1.2.3.4</source>
-        <translation type="unfinished"></translation>
+        <translation>IP adresa, např. 1.2.3.4</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Subdomains will be mapped to the same IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Subdomény budou směrovány na stejné IP</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>&amp;Custom Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vlastní nastavení</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -816,58 +834,63 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Enter JSON string, e.g. {&amp;quot;ns&amp;quot;: [&amp;quot;1.2.3.4&amp;quot;, &amp;quot;1.2.3.5&amp;quot;]}&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;See &lt;a href=&quot;http://dot-bit.org/HowToRegisterAndConfigureBitDomains&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;How to Register and Configure Bit Domains&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Zadej řetězec ve formátu JSON, např. {&amp;quot;ns&amp;quot;: [&amp;quot;1.2.3.4&amp;quot;, &amp;quot;1.2.3.5&amp;quot;]}&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Návod: &lt;a href=&quot;http://dot-bit.org/HowToRegisterAndConfigureBitDomains&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;How to Register and Configure Bit Domains&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Enter JSON string that will be associated with the name</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej řetězec JSON který bude přiřazen k tomuto jménu</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>&amp;Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adresa:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Transfer to:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Komu předat:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Choose address from address book</source>
-        <translation type="unfinished">Válassz egy címet a címjegyzékből</translation>
+        <translation>Vyber adresu z adresáře</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation>Alt+A</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
+        <translation>Vlož adresu ze schránky</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+56"/>
         <source>Alt+P</source>
-        <translation type="unfinished">Alt+P</translation>
+        <translation>Alt+P</translation>
     </message>
     <message>
         <location line="-26"/>
         <source>Denemecoin address to which the name is assigned</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoinová adresa které toto jméno patří</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Copy address to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopíruj adresu do schránky</translation>
     </message>
     <message>
         <location line="-412"/>
         <source>Domain name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Doména:</translation>
     </message>
     <message>
         <location line="+322"/>
@@ -876,52 +899,56 @@ the domain to, e.g.
 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9
 
 Leave empty, if not needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoinová addresa, které má být
+doména předána, např.
+N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9
+
+Nech pole prázdné, pokud to není třeba.</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>(can be left empty)</source>
-        <translation type="unfinished"></translation>
+        <translation>(pole může být prázdné)</translation>
     </message>
     <message>
         <location filename="../configurenamedialog.cpp" line="+51"/>
         <source>(not a domain name)</source>
-        <translation type="unfinished"></translation>
+        <translation>(není to doména)</translation>
     </message>
     <message>
         <location line="+121"/>
         <source>Name_firstupdate transaction will be queued and broadcasted when corresponding name_new is %1 blocks old</source>
-        <translation type="unfinished"></translation>
+        <translation>Transakce name_firstupdate bude zařazena do fronty, a vyslána až bude příslušné name_new %1 bloků staré</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do not close your client while the name is pending!</source>
-        <translation type="unfinished"></translation>
+        <translation>Během zpracovávání jména nezavírej aplikaci!</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Name_update transaction will be issued immediately</source>
-        <translation type="unfinished"></translation>
+        <translation>Transakce name_update bude hned vydána</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Update Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualizovat Jméno</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Name update error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při aktualizaci jména</translation>
     </message>
     <message>
         <location line="+86"/>
         <source>Valid JSON string</source>
-        <translation type="unfinished"></translation>
+        <translation>Platný řetězec JSON</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Invalid JSON string (can still be used, if not intended as JSON string)</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatný řetězec JSON (ale i tak je možné ho použít, pokud není myšlený jako JSON)</translation>
     </message>
 </context>
 <context>
@@ -929,67 +956,67 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Cím szerkesztése</translation>
+        <translation>Uprav adresu</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>Cím&amp;ke</translation>
+        <translation>&amp;Označení</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>A címhez tartozó címke</translation>
+        <translation>Označení spojené s tímto záznamem v adresáři</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Cím</translation>
+        <translation>&amp;Adresa</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Az ehhez a címjegyzék-bejegyzéshez tartozó cím. Ez csak a küldő címeknél módosítható.</translation>
+        <translation>Adresa spojená s tímto záznamem v adresáři. Lze upravovat jen pro odesílací adresy.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Új fogadó cím</translation>
+        <translation>Nová přijímací adresa</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Új küldő cím</translation>
+        <translation>Nová odesílací adresa</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Fogadó cím szerkesztése</translation>
+        <translation>Uprav přijímací adresu</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Küldő cím szerkesztése</translation>
+        <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
+        <translation>Zadaná adresa &quot;%1&quot; už v adresáři je.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Denemecoin address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Denemecoin-cím.</translation>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Denemecoinová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Tárca feloldása sikertelen</translation>
+        <translation>Nemohu odemknout peněženku.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Új kulcs generálása sikertelen</translation>
+        <translation>Nepodařilo se mi vygenerovat nový klíč.</translation>
     </message>
 </context>
 <context>
@@ -998,43 +1025,42 @@ Leave empty, if not needed.</source>
         <location filename="../guiutil.cpp" line="+423"/>
         <location line="+12"/>
         <source>Denemecoin-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>verzió</translation>
+        <translation>verze</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Használat:</translation>
+        <translation>Užití:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>možnosti příkazové řádky</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI opciók</translation>
+        <translation>Možnosti UI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit jazyk, například &quot;de_DE&quot; (výchozí: systémové nastavení)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Indítás lekicsinyítve
-</translation>
+        <translation>Startovat minimalizovaně</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazovat startovací obrazovku (výchozí: 1)</translation>
     </message>
 </context>
 <context>
@@ -1042,170 +1068,171 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../forms/managenamespage.ui" line="+20"/>
         <source>Manage Names</source>
-        <translation type="unfinished"></translation>
+        <translation>Správa Jmen</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;New name:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nové jméno:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Enter a name or domain name (prefixed with d/) to be registered via Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej jméno nebo doménové jméno (začínající d/) které má být zaregistrováno skrze Denemecoin.</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt; prefix for domain names. E.g. &lt;span style=&quot; font-weight:600;&quot;&gt;d/mysite&lt;/span&gt; will register &lt;span style=&quot; font-weight:600;&quot;&gt;mysite.bit&lt;/span&gt; (note: domains can be lower-case only, valid characters are alphanumeric and hyphen; hyphen can&apos;t be first/last character).&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; in Denemecoin wiki for reference. Other prefixes can be used for miscellaneous purposes (not domain names).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pro doménová jména použij předponu &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt;. Například &lt;span style=&quot; font-weight:600;&quot;&gt;d/mujweb&lt;/span&gt; zaregistruje doménu &lt;span style=&quot; font-weight:600;&quot;&gt;mujweb.bit&lt;/span&gt; (poznámka: doména může obsahovat pouze malá písmena, čísla a pomlčky; první ani poslední znak nesmí být pomlčka).&lt;/p&gt;&lt;p&gt;Více na stránce &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; na Denemecoin wiki. Jiné předpony mohou být použity pro různé jiné účely (mimo doménových jmen).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Confirm the new name action. Sends name_new transaction
 to the network and creates a pending name_firstupdate transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrdit vytvoření nového jména. Vyšle do sítě transakci name_new
+a po ní zařadí do fronty transakci name_firstupdate.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>&amp;Submit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odeslat</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Your registered names:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvá registrovaná jména:</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Enter part of name to search for</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej část jména k vyhledání</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Enter part of value to search for</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej část hodnoty k vyhledání</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Enter Denemecoin address (or prefix of it)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadej Denemecoinovou adresu (nebo její začátek)</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Double-click name to configure</source>
-        <translation type="unfinished"></translation>
+        <translation>Dvojklikem myši na jméno otevřeš nastavení</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Configure name and submit update operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit jméno a odeslat operaci update</translation>
     </message>
     <message>
         <location line="+3"/>
         <location filename="../managenamespage.cpp" line="+86"/>
         <source>&amp;Configure Name...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nastavení jména...</translation>
     </message>
     <message>
         <location filename="../managenamespage.cpp" line="-3"/>
         <source>Copy &amp;Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopíruj &amp;Jméno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy &amp;Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopíruj &amp;Hodnotu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy &amp;Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopíruj &amp;Adresu</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Name filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtr jména</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Value filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtr hodnoty</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtr adresy</translation>
     </message>
     <message>
         <location line="+90"/>
         <source>Name registration</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrace jména</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Name not available</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno není dostupné</translation>
     </message>
     <message>
         <location line="+9"/>
         <location line="+10"/>
         <source>Name registration warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Varování kvůli registraci jména</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>The name you entered contains whitespace characters. It is probably invalid. Are you sure you want to use this name?</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno, které jsi zadal, obsahuje mezery. Je tedy nejspíše neplatné. Opravdu chceš použít toto jméno?</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The name you entered does not start with prefix (such as &quot;d/&quot;). It may be invalid for certain tasks. Are you sure you want to use this name?</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno, které jsi zadal, nezačíná předponou (jako je &quot;d/&quot;). Pro některé účely může být neplatné. Opravdu chceš použít toto jméno?</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Are you sure you want to register domain name %1, which corresponds to domain %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>Opravdu chceš zaregistrovat doménové jméno %1, které odpovídá doméně %2?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Are you sure you want to register non-domain name %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Opravdu chceš zaregistrovat ne-doménové jméno %1?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This will issue both a name_new and a postponed name_firstupdate. Let the program run for three hours to make sure the process can finish.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bude vyslán příkaz name_new a po něm name_firstupdate. Nech program běžet tři hodiny, aby bylo zajištěno, že bude proces řádně dokončen.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Confirm name registration</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrzení registrace jména</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Name registration failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrace jména selhala</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Export Registered Names Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat Data Registrovaných Jmen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"></translation>
+        <translation>CSV formát (*.csv)</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Error exporting</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při exportu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu zapisovat do souboru %1.</translation>
     </message>
 </context>
 <context>
@@ -1213,42 +1240,42 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../nametablemodel.cpp" line="+365"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Hodnota</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Expires in</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyprší za</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Cím</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location line="+140"/>
         <source>Name registered using Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jméno registrované skrze Denemecoin.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Data associated with the name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Data přiřazená ke jménu.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Denemecoin address to which the name is registered.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoinová adresa, na kterou je jméno registrováno.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Number of blocks, after which the name will expire. Update name to renew it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Počet bloků, po kterém jméno vyprší. Aktualizováním můžeš jméno obnovit.</translation>
     </message>
 </context>
 <context>
@@ -1256,209 +1283,209 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Opciók</translation>
+        <translation>Možnosti</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Fő</translation>
+        <translation>&amp;Hlavní</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Opcionális, kB-onkénti tranzakciós díj a tranzakcióid minél gyorsabb feldolgozásának elősegítésére.  A legtöbb tranzakció 1 kB-os.  0,01 NMC ajánlott.</translation>
+        <translation>Dobrovolný transakční poplatek za každý započatý kB dopomáhá k rychlému zpracování tvých transakcí. Většina transakcí má do 1 kB. Doporučená výše poplatku je 0.01.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Tranzakciós &amp;díj fizetése</translation>
+        <translation>Platit &amp;transakční poplatek</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Denemecoin after logging in to the system.</source>
-        <translation>Induljon el a Denemecoin a számítógép bekapcsolásakor</translation>
+        <translation>Automaticky spustí Denemecoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Denemecoin on system login</source>
-        <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
+        <translation>&amp;Spustit Denemecoin po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrátí všechny volby na výchozí hodnoty.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obnovit nastavení</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Síť</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Denemecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Denemecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>&amp;UPnP port-feltérképezés</translation>
+        <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Denemecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a Denemecoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <translation>Připojí se do Denemecoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Csatlakozás SOCKS proxyn keresztül:</translation>
+        <translation>&amp;Připojit přes SOCKS proxy:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;IP adresa proxy:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Proxy IP címe (pl.: 127.0.0.1)</translation>
+        <translation>IP adresa proxy (např. 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;ort:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy portja (pl.: 9050)</translation>
+        <translation>Port proxy (např. 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verze SOCKS:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Verze SOCKS proxy (např. 5)</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Okno</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Kicsinyítés után csak eszköztár-ikont mutass</translation>
+        <translation>Po minimalizaci okna zobrazí pouze ikonu v panelu.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
+        <translation>&amp;Minimalizovávat do ikony v panelu</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
+        <translation>Zavřením se aplikace minimalizuje. Pokud je tato volba zaškrtnuta, tak se aplikace ukončí pouze zvolením Konec v menu.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>K&amp;icsinyítés záráskor</translation>
+        <translation>&amp;Zavřením minimalizovat</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Megjelenítés</translation>
+        <translation>&amp;Zobrazení</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jazyk uživatelského rozhraní:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Denemecoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Mértékegység:</translation>
+        <translation>&amp;Jednotka pro částky: </translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
+        <translation>Zvol výchozí podjednotku, která se bude zobrazovat v programu a při posílání mincí.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Denemecoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zda ukazovat Denemecoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Címek megjelenítése a tranzakciólistában</translation>
+        <translation>&amp;Ukazovat adresy ve výpisu transakcí</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zrušit</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Použít</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation>výchozí</translation>
     </message>
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrzení obnovení nastavení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Některá nastavení mohou vyžadovat restart klienta, aby se mohly projevit.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chceš pokračovat?</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Figyelem</translation>
+        <translation>Upozornění</translation>
     </message>
     <message>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení se projeví až po restartování Denemecoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadaná adresa proxy je neplatná.</translation>
     </message>
 </context>
 <context>
@@ -1466,69 +1493,69 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>Formulář</translation>
     </message>
     <message>
         <location line="+51"/>
         <location line="+183"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Denemecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Denemecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-141"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>Stav účtu:</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Number of transactions:</source>
-        <translation>Tranzakciók száma:</translation>
+        <translation>Počet transakcí:</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Unconfirmed:</source>
-        <translation>Megerősítetlen:</translation>
+        <translation>Nepotvrzeno:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Tárca</translation>
+        <translation>Peněženka</translation>
     </message>
     <message>
         <location line="+124"/>
         <source>Immature:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedozráno:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytěžené mince, které ještě nejsou zralé</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Legutóbbi tranzakciók&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Poslední transakce&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-118"/>
         <source>Your current balance</source>
-        <translation>Aktuális egyenleged</translation>
+        <translation>Aktuální stav tvého účtu</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Még megerősítésre váró, a jelenlegi egyenlegbe be nem számított tranzakciók</translation>
+        <translation>Celkem z transakcí, které ještě nejsou potvrzené a které se ještě nezapočítávají do celkového stavu účtu</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Total number of transactions in wallet</source>
-        <translation>Tárca összes tranzakcióinak száma</translation>
+        <translation>Celkový počet transakcí v peněžence</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+115"/>
         <location line="+1"/>
         <source>out of sync</source>
-        <translation type="unfinished"></translation>
+        <translation>nesynchronizováno</translation>
     </message>
 </context>
 <context>
@@ -1536,7 +1563,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../paymentserver.cpp" line="+108"/>
         <source>Cannot start Denemecoin: click-to-pay handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze spustit Denemecoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1544,57 +1571,57 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>QR kód</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation type="unfinished"></translation>
+        <translation>Požadovat platbu</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Összeg:</translation>
+        <translation>Částka:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Címke:</translation>
+        <translation>Označení:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Üzenet:</translation>
+        <translation>Zpráva:</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ulož jako...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při kódování URI do QR kódu.</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadaná částka je neplatná, překontroluj ji prosím.</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"></translation>
+        <translation>Výsledná URI je příliš dlouhá, zkus zkrátit text označení / zprávy.</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Save QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Ulož QR kód</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation type="unfinished"></translation>
+        <translation>PNG obrázky (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1602,7 +1629,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
-        <translation type="unfinished"></translation>
+        <translation>Název klienta</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1616,132 +1643,132 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+23"/>
         <location filename="../rpcconsole.cpp" line="+345"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <location line="-217"/>
         <source>Client version</source>
-        <translation type="unfinished"></translation>
+        <translation>Verze klienta</translation>
     </message>
     <message>
         <location line="-45"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informace</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation type="unfinished"></translation>
+        <translation>Používaná verze OpenSSL</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Startup time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas spuštění</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Síť</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Number of connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Počet spojení</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation type="unfinished"></translation>
+        <translation>V testnetu</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation type="unfinished"></translation>
+        <translation>Řetězec bloků</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuální počet bloků</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>Odhad celkového počtu bloků</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Last block time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas posledního bloku</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otevřít</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Argumenty z příkazové řádky</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Show the Denemecoin-Qt help message to get a list with possible Denemecoin command-line options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznam parametrů Denemecoinu pro příkazovou řádku získáš v nápovědě Denemecoinu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zobrazit</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>&amp;Console</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Konzole</translation>
     </message>
     <message>
         <location line="-260"/>
         <source>Build date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum kompilace</translation>
     </message>
     <message>
         <location line="-104"/>
         <source>Denemecoin - Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>Denemecoin - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Denemecoin Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Jádro Denemecoinu</translation>
     </message>
     <message>
         <location line="+279"/>
         <source>Debug log file</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor s ladicími záznamy</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Open the Denemecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevři soubor s ladicími záznamy Denemecoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyčistit konzoli</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Denemecoin RPC console.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vítej v Denemecoinové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>V historii se pohybuješ šipkami nahoru a dolů a pomocí &lt;b&gt;Ctrl-L&lt;/b&gt; vyčistíš obrazovku.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation>Napsáním &lt;b&gt;help&lt;/b&gt; si vypíšeš přehled dostupných příkazů.</translation>
     </message>
 </context>
 <context>
@@ -1756,32 +1783,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Érmék küldése</translation>
+        <translation>Pošli mince</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Küldés több címzettnek egyszerre</translation>
+        <translation>Pošli více příjemcům naráz</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Címzett hozzáadása</translation>
+        <translation>Při&amp;dej příjemce</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Smaž všechny transakční formuláře</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>Všechno &amp;smaž</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>Stav účtu:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1791,67 +1818,67 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>Potvrď odeslání</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;Küldés</translation>
+        <translation>&amp;Pošli</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; %2-re (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; pro %2 (%3)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>Potvrď odeslání mincí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Valóban el akarsz küldeni %1-t?</translation>
+        <translation>Jsi si jistý, že chceš poslat %1?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> és</translation>
+        <translation> a </translation>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>A címzett címe érvénytelen, kérlek, ellenőrizd.</translation>
+        <translation>Adresa příjemce je neplatná, překontroluj ji prosím.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>A fizetendő összegnek nagyobbnak kell lennie 0-nál.</translation>
+        <translation>Odesílaná částka musí být větší než 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi Denemecoin az egyenlegeden.</translation>
+        <translation>Částka překračuje stav účtu.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>A küldeni kívánt összeg és a %1 tranzakciós díj együtt meghaladja az egyenlegeden rendelkezésedre álló összeget.</translation>
+        <translation>Celková částka při připočítání poplatku %1 překročí stav účtu.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
+        <translation>Zaznamenána duplikovaná adresa; každá adresa může být v odesílané platbě pouze jednou.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Vytvoření transakce selhalo!</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Hiba: a tranzakciót elutasították. Ezt az okozhatja, ha már elköltöttél valamennyi érmét a tárcádból például ha a wallet.dat-od egy másolatát használtad, és így az elköltés csak abban lett jelölve, de itt nem.</translation>
+        <translation>Chyba: Transakce byla odmítnuta. Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
 </context>
 <context>
@@ -1859,39 +1886,38 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>Formulář</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Összeg:</translation>
+        <translation>Čá&amp;stka:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Címzett:</translation>
+        <translation>&amp;Komu:</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresa příjemce (např. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
-</translation>
+        <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>Címke:</translation>
+        <translation>&amp;Označení:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>Vyber adresu z adresáře</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1901,7 +1927,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>Vlož adresu ze schránky</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1911,12 +1937,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Címzett eltávolítása</translation>
+        <translation>Smaž tohoto příjemce</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Zadej Denemecoinovou adresu (např. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
 </context>
 <context>
@@ -1924,28 +1950,28 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpisy - podepsat/ověřit zprávu</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Podepiš zprávu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podepsáním zprávy svými adresami můžeš prokázat, že je skutečně vlastníš. Buď opatrný a nepodepisuj nic vágního; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze zcela úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Adresa, kterou se zpráva podepíše (např. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>Vyber adresu z adresáře</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1956,7 +1982,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>Vlož adresu ze schránky</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1966,142 +1992,142 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished"></translation>
+        <translation>Sem vepiš zprávu, kterou chceš podepsat</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpis</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopíruj aktuálně vybraný podpis do systémové schránky</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Denemecoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;depiš zprávu</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymaž všechna pole formuláře pro podepsání zrávy</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>Všechno &amp;smaž</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ověř zprávu</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"></translation>
+        <translation>K ověření podpisu zprávy zadej podepisující adresu, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Adresa, kterou je zpráva podepsána (např. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Denemecoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ověř zprávu</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymaž všechna pole formuláře pro ověření zrávy</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+26"/>
         <location line="+3"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Zadej Denemecoinovou adresu (např. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknutím na &quot;Podepiš zprávu&quot; vygeneruješ podpis</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter Denemecoin signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlož Denemecoinový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
         <location line="+82"/>
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadaná adresa je neplatná.</translation>
     </message>
     <message>
         <location line="-82"/>
         <location line="+82"/>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontroluj ji prosím a zkus to pak znovu.</translation>
     </message>
     <message>
         <location line="-74"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odemčení peněženky bylo zrušeno.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Soukromý klíč pro zadanou adresu není dostupný.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Message signing failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podepisování zprávy selhalo.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpráv podepsána.</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>The signature could not be decoded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpis nejde dekódovat.</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontroluj ho prosím a zkus to pak znovu.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpis se neshoduje s hašem zprávy.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ověřování zprávy selhalo.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpráva ověřena.</translation>
     </message>
 </context>
 <context>
@@ -2109,73 +2135,75 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiondesc.cpp" line="+21"/>
         <source>Open until %1</source>
-        <translation>Megnyitva %1-ig</translation>
+        <translation>Otřevřeno dokud %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1/offline</source>
-        <translation type="unfinished"></translation>
+        <translation>%1/offline</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/megerősítetlen</translation>
+        <translation>%1/nepotvrzeno</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 megerősítés</translation>
+        <translation>%1 potvrzení</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Állapot</translation>
+        <translation>Stav</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>, rozesláno přes 1 uzel</numerusform>
+            <numerusform>, rozesláno přes %n uzly</numerusform>
+            <numerusform>, rozesláno přes %n uzlů</numerusform>
         </translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdroj</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>Legenerálva</translation>
+        <translation>Vygenerováno</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>Űrlap</translation>
+        <translation>Od</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+88"/>
         <source>To</source>
-        <translation>Címzett</translation>
+        <translation>Pro</translation>
     </message>
     <message>
         <location line="-107"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation type="unfinished"></translation>
+        <translation>vlastní adresa</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>címke</translation>
+        <translation>označení</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2184,24 +2212,26 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+16"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Jóváírás</translation>
+        <translation>Příjem</translation>
     </message>
     <message numerus="yes">
         <location line="-171"/>
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>dozraje po jednom bloku</numerusform>
+            <numerusform>dozraje po %n blocích</numerusform>
+            <numerusform>dozraje po %n blocích</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>elutasítva</translation>
+        <translation>neakceptováno</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>Name operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Operace se Jmény</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2209,69 +2239,71 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+14"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Terhelés</translation>
+        <translation>Výdaj</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Tranzakciós díj</translation>
+        <translation>Transakční poplatek</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Nettó összeg</translation>
+        <translation>Čistá částka</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Üzenet</translation>
+        <translation>Zpráva</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Megjegyzés</translation>
+        <translation>Komentář</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transaction ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID transakce</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>A frissen generált érméket csak 120 blokkal később tudod elkölteni.  Ez a blokk nyomban szétküldésre került a hálózatba, amint legeneráltad, hogy hozzáadhassák a blokklánchoz.  Ha nem kerül be a láncba, úgy az állapota &quot;elutasítva&quot;-ra módosul,  és nem költheted el az érméket. Ez akkor következhet be időnként, ha egy másik csomópont mindössze néhány másodperc különbséggel generált le egy blokkot a tiédhez képest.</translation>
+        <translation>Vygenerované mince musí čekat 120 bloků, než mohou být utraceny. Když jsi vygeneroval tenhle blok, tak byl rozposlán do sítě, aby byl přidán do řetězce bloků. Pokud se mu nepodaří dostat se do řetězce, změní se na &quot;neakceptovaný&quot; a nepůjde utratit. To se občas může stát, pokud jiný uzel vygeneruje blok zhruba ve stejném okamžiku jako ty.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Debug information</source>
-        <translation type="unfinished"></translation>
+        <translation>Ladicí informace</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Tranzakció</translation>
+        <translation>Transakce</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>Vstupy</translation>
     </message>
     <message>
         <location line="-254"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, még nem sikerült elküldeni.</translation>
+        <translation>, ještě nebylo rozesláno</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Otevřeno pro 1 další blok</numerusform>
+            <numerusform>Otevřeno pro %n další bloky</numerusform>
+            <numerusform>Otevřeno pro %n dalších bloků</numerusform>
         </translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>ismeretlen</translation>
+        <translation>neznámo</translation>
     </message>
 </context>
 <context>
@@ -2279,12 +2311,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Tranzakció részletei</translation>
+        <translation>Detaily transakce</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ez a mező a tranzakció részleteit mutatja</translation>
+        <translation>Toto okno zobrazuje detailní popis transakce</translation>
     </message>
 </context>
 <context>
@@ -2292,126 +2324,130 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiontablemodel.cpp" line="+227"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>Částka</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Otevřeno pro 1 další blok</numerusform>
+            <numerusform>Otevřeno pro %n další bloky</numerusform>
+            <numerusform>Otevřeno pro %n dalších bloků</numerusform>
         </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>%1-ig megnyitva</translation>
+        <translation>Otřevřeno dokud %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 megerősítés)</translation>
+        <translation>Offline (%1 potvrzení)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Megerősítetlen (%1 %2 megerősítésből)</translation>
+        <translation>Nepotvrzeno (%1 z %2 potvrzení)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Megerősítve (%1 megerősítés)</translation>
+        <translation>Potvrzeno (%1 potvrzení)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Vytěžené mince budou použitelné po dozrání, tj. po jednom bloku</numerusform>
+            <numerusform>Vytěžené mince budou použitelné po dozrání, tj. po %n blocích</numerusform>
+            <numerusform>Vytěžené mince budou použitelné po dozrání, tj. po %n blocích</numerusform>
         </translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ezt a blokkot egyetlen másik csomópont sem kapta meg, így valószínűleg nem lesz elfogadva!</translation>
+        <translation>Tento blok nedostal žádný jiný uzel a pravděpodobně nebude akceptován!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Legenerálva, de még el nem fogadva.</translation>
+        <translation>Vygenerováno, ale neakceptováno</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>Přijato do</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Erről az</translation>
+        <translation>Přijato od</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>Posláno na</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Magadnak kifizetve</translation>
+        <translation>Platba sama sobě</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>Vytěženo</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Name operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Operace se Jmény</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>(n/a)</source>
-        <translation>(nincs)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <location line="+200"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Tranzakció állapota. Húzd ide a kurzort, hogy lásd a megerősítések számát.</translation>
+        <translation>Stav transakce. Najetím myši na toto políčko si zobrazíš počet potvrzení.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Tranzakció fogadásának dátuma és időpontja.</translation>
+        <translation>Datum a čas přijetí transakce.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Tranzakció típusa.</translation>
+        <translation>Druh transakce.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>A tranzakció címzettjének címe.</translation>
+        <translation>Cílová adresa transakce.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Az egyenleghez jóváírt vagy ráterhelt összeg.</translation>
+        <translation>Částka odečtená z nebo přičtená k účtu.</translation>
     </message>
 </context>
 <context>
@@ -2420,167 +2456,167 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Mind</translation>
+        <translation>Vše</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Mai</translation>
+        <translation>Dnes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Ezen a héten</translation>
+        <translation>Tento týden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Ebben a hónapban</translation>
+        <translation>Tento měsíc</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Múlt hónapban</translation>
+        <translation>Minulý měsíc</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Ebben az évben</translation>
+        <translation>Letos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Tartomány ...</translation>
+        <translation>Rozsah...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>Přijato</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>Posláno</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Magadnak</translation>
+        <translation>Sám sobě</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>Vytěženo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Name operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Operace se Jmény</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Más</translation>
+        <translation>Ostatní</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Írd be a keresendő címet vagy címkét</translation>
+        <translation>Zadej adresu nebo označení pro její vyhledání</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minimális összeg</translation>
+        <translation>Minimální částka</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Cím másolása</translation>
+        <translation>Kopíruj adresu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Címke másolása</translation>
+        <translation>Kopíruj její označení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopíruj částku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Címke szerkesztése</translation>
+        <translation>Uprav označení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraz detaily transakce</translation>
     </message>
     <message>
         <location line="+137"/>
         <source>Export Transaction Data</source>
-        <translation>Tranzakció adatainak exportálása</translation>
+        <translation>Exportuj transakční data</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*.csv)</translation>
+        <translation>CSV formát (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Megerősítve</translation>
+        <translation>Potvrzeno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>Označení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>Částka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>ID</source>
-        <translation>Azonosító</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Hiba lépett fel exportálás közben</translation>
+        <translation>Chyba při exportu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 fájlba való kiírás sikertelen.</translation>
+        <translation>Nemohu zapisovat do souboru %1.</translation>
     </message>
     <message>
         <location line="+95"/>
         <source>Range:</source>
-        <translation>Tartomány:</translation>
+        <translation>Rozsah:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>meddig</translation>
+        <translation>až</translation>
     </message>
 </context>
 <context>
@@ -2588,37 +2624,37 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../walletmodel.cpp" line="+565"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Transakce byla odmítnuta. Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Cannot find stored tx hash for name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze najít uložený tx hash pro jméno</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Cannot find stored rand value for name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nelze najít uloženou náhodnou hodnotu pro jméno</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Invalid Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatná Denemecoinová adresa</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>There are pending operations on that name</source>
-        <translation type="unfinished"></translation>
+        <translation>Na tomto jméně probíhají operace</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Could not find a coin with this name</source>
-        <translation type="unfinished"></translation>
+        <translation>Mince s tímto jménem nebyla nalezena</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>This coin is not in your wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato mince není ve tvé peněžence</translation>
     </message>
 </context>
 <context>
@@ -2634,736 +2670,724 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
+ %s
+Je vhodné použít následující náhodné heslo:
+rpcuser=Denemecoinrpc
+rpcpassword=%s
+(není potřeba si ho pamatovat)
+rpcuser a rpcpassword NESMÍ být stejné.
+Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
+</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished">Elfogadható rejtjelkulcsok (alapértelmezett: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH )
-</translation>
+        <translation>Akceptovatelné šifry (výchozí: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Při nastavování naslouchacího RPC portu %i pro IPv4 nastala chyba: %s</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Při nastavování naslouchacího RPC portu %u pro IPv6 nastala chyba, vracím se k IPv4: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>Poslouchat na zadané adrese. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Denemecoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Denemecoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastala chyba při inicializaci databázového prostředí %s! Řešení: ZAZÁLOHUJ TENTO ADRESÁŘ, a pak v něm smaž vše kromě wallet.dat.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Transakce byla odmítnuta! Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Tahle transakce vyžaduje transakční poplatek nejméně %s kvůli velikosti zasílané částky, komplexnosti nebo použití nedávno přijatých mincí!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustit příkaz, když se objeví transakce týkající se peněženky (%s se v příkazu nahradí za TxID)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustit příkaz, když se změní nejlepší blok (%s se v příkazu nahradí hashem bloku)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8336 or testnet: 18336)</source>
-        <translation type="unfinished">JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8336 or testnet: 18336)</translation>
+        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 8336 nebo testnet: 18336)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished"></translation>
+        <translation>Doba ve vteřinách, po kterou se nebudou moci nesprávně se chovající uzly znovu připojit (výchozí: 86400)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: 27000)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Set the number of script verification threads (1-16, 0=auto, default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení počtu vláken pro verifikaci skriptů (%u až %d, 0 = automaticky, &lt;0 = nechat daný počet jader volný, výchozí: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Tohle je testovací verze - používej ji jen na vlastní riziko - ale rozhodně ji nepoužívej k těžbě nebo pro obchodní aplikace</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unable to bind to %s on this computer. Denemecoin is probably already running.</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen. A Denemecoin valószínűleg fut már.</translation>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Denemecoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
+        <translation>Upozornění: -paytxfee je nastaveno velmi vysoko! Toto je transakční poplatek, který zaplatíš za každou poslanou transakci.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozornění: Zobrazené transakce nemusí být správné! Možná potřebuješ aktualizovat nebo ostatní uzly potřebují aktualizovat.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Denemecoin will not work properly.</source>
-        <translation type="unfinished">Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Denemecoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Denemecoin nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozornění: nastala chyba při čtení souboru wallet.dat! Všechny klíče se přečetly správně, ale data o transakcích nebo záznamy v adresáři mohou chybět či být nesprávné.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozornění: soubor wallet.dat je poškozený, data jsou však zachráněna! Původní soubor wallet.dat je uložený jako wallet.{timestamp}.bak v %s. Pokud je stav tvého účtu nebo transakce nesprávné, zřejmě bys měl obnovit zálohu.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musíš nastavit rpcpassword=&lt;heslo&gt; v konfiguračním souboru:
+%s
+Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished">Parancssoros és JSON-RPC parancsok elfogadása
-</translation>
+        <translation>Akceptovat příkazy z příkazové řádky a přes JSON-RPC</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"></translation>
+        <translation>Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished">Elérendő csomópont megadása and attempt to keep the connection open</translation>
+        <translation>Přidat uzel, ke kterému se připojit a snažit se spojení udržet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished">DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
+        <translation>Povolit DNS dotazy pro -addnode (přidání uzlu), -seednode a -connect (připojení)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished">JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
-</translation>
+        <translation>Povolit JSON-RPC spojení ze specifikované IP adresy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokusit se zachránit soukromé klíče z poškozeného souboru wallet.dat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Denemecoin version</source>
-        <translation type="unfinished">Denemecoin verzió</translation>
+        <translation>Verze Denemecoinu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Block creation options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Možnosti vytvoření bloku:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu převést peněženku do staršího formátu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot initialize keypool</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu inicializovat zásobník klíčů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu přeložit -bind adresu: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu přeložit -externalip adresu: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot write default address</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemohu napsat výchozí adresu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished">Csatlakozás csak a megadott csomóponthoz</translation>
+        <translation>Připojovat se pouze k zadaným uzlům</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect through socks proxy</source>
-        <translation type="unfinished">Csatlakozás SOCKS proxyn keresztül</translation>
+        <translation>Připojovat se přes socks proxy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit se k uzlu, získat adresy jeho protějšků a odpojit se</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Corrupted block database detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Bylo zjištěno poškození databáze bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjistit vlastní IP adresu (výchozí: 1, pokud naslouchá a není zadáno -externalip)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chceš přestavět databázi bloků hned teď?</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">Denemecoin-generálás leállítása
-</translation>
+        <translation>Negenerovat mince</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Done loading</source>
-        <translation type="unfinished">Betöltés befejezve.</translation>
+        <translation>Načítání dokončeno</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error initializing block database</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při zakládání databáze bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při načítání databáze bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished">Hiba az wallet.dat betöltése közben</translation>
+        <translation>Chyba při načítání wallet.dat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
+        <translation>Chyba při načítání wallet.dat: peněženka je poškozená</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Denemecoin</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Denemecoin-kliens szükséges</translation>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Denemecoinu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error opening block database</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při otevírání databáze bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"></translation>
+        <translation>Problém: Na disku je málo místa!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Vytvoření transakce selhalo!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: Peněženka je zamčená, nemohu vytvořit transakci!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: could not start node</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: nemohu nastartovat uzel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: system error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba: systémová chyba: </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se naslouchat na žádném portu. Použij -listen=0, pokud to byl tvůj záměr.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se přečíst informace o bloku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se přečíst blok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to sync block index</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se synchronizovat index bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block index</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat index bloků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block info</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat informace o bloku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat blok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write file info</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat informace o souboru</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation type="unfinished"></translation>
+        <translation>Selhal zápis do databáze mincí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write transaction index</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat index transakcí</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se zapsat data o vracení změn</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished">kB-onként felajánlandó díj az általad küldött tranzakciókhoz</translation>
+        <translation>Poplatek za KB, který se přidá ke každé odeslané transakci</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat uzly přes DNS (výchozí: 1, pokud není zadáno -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Find peers using internet relay chat (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat uzly přes IRC (výchozí: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generate coins</source>
-        <translation type="unfinished">Érmék generálása
-</translation>
+        <translation>Generovat mince</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Get help for a command</source>
-        <translation type="unfinished">Segítség egy parancsról
-</translation>
+        <translation>Získat nápovědu pro příkaz</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolik bloků při startu zkontrolovat (výchozí: 2500, 0 = všechny) {288, 0 ?}</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Jak moc důkladná má být verifikace bloků (0–4, výchozí: 3)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Importing blocks from block database...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importuji bloky z databáze bloků...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"></translation>
+        <translation>Importuje bloky z externího souboru blk000?.dat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informace</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished">Nincs elég bitcoinod.</translation>
+        <translation>Nedostatek prostředků</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -proxy cím: &apos;%s&apos;</translation>
+        <translation>Neplatná -proxy adresa: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -tor cím: &apos;%s&apos;</translation>
+        <translation>Neplatná -tor adresa: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished">Étvénytelen -paytxfee=&lt;összeg&gt; összeg: &apos;%s&apos;</translation>
+        <translation>Neplatná částka pro -paytxfee=&lt;částka&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation type="unfinished">Étvénytelen összeg</translation>
+        <translation>Neplatná částka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>List commands</source>
-        <translation type="unfinished">Parancsok kilistázása
-</translation>
+        <translation>Výpis příkazů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Listen for connections on &lt;port&gt; (default: 8334 or testnet: 18334)</source>
-        <translation type="unfinished">Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8334 or testnet: 18334)</translation>
+        <translation>Čekat na spojení na &lt;portu&gt; (výchozí: 8334 nebo testnet: 18334)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading addresses...</source>
-        <translation type="unfinished">Címek betöltése...</translation>
+        <translation>Načítám adresy...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading block index...</source>
-        <translation type="unfinished">Blokkindex betöltése...</translation>
+        <translation>Načítám index bloků...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished">Tárca betöltése...</translation>
+        <translation>Načítám peněženku...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spravovat úplný index transakcí (výchozí: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished"></translation>
+        <translation>Povol nejvýše &lt;n&gt; připojení k uzlům (výchozí: 125)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximální velikost přijímacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximální velikost odesílacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: 1000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uznávat pouze řetěz bloků, který odpovídá vnitřním kontrolním bodům (výchozí: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojovat se pouze k uzlům v &lt;net&gt; síti (IPv4, IPv6 nebo Tor)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished">Opciók
-</translation>
+        <translation>Možnosti:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"></translation>
+        <translation>Tisknout speciální ladicí informace. Implikuje použití všechny -debug* voleb</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation type="unfinished"></translation>
+        <translation>Tisknout speciální ladicí informace o síti</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished">Jelszó JSON-RPC csatlakozásokhoz
-</translation>
+        <translation>Heslo pro JSON-RPC spojení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit před ladicí výstup časové razítko</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rebuild blockchain index from current blk000??.dat files</source>
-        <translation type="unfinished"></translation>
+        <translation>Znovu vytvořit index řetězce bloků z aktuálních blk000??.dat souborů</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
-</translation>
+        <translation>Přeskenovat řetězec bloků na chybějící transakce tvé pěněženky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescanning...</source>
-        <translation type="unfinished">Újraszkennelés...</translation>
+        <translation>Přeskenovávám...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished">Háttérben futtatás daemonként és parancsok elfogadása
-</translation>
+        <translation>Běžet na pozadí jako démon a akceptovat příkazy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished">SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvol verzi socks proxy (4-5, výchozí: 5)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send command to -server or Denemecoind</source>
-        <translation type="unfinished">Parancs küldése a -serverhez vagy a Denemecoindhez
-</translation>
+        <translation>Poslat příkaz pro -server nebo Denemecoind</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished">Parancsok küldése &lt;ip&gt; címen működő csomóponthoz (alapértelmezett: 127.0.0.1)
-</translation>
+        <translation>Posílat příkazy uzlu běžícím na &lt;ip&gt; (výchozí: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"></translation>
+        <translation>Posílat stopovací/ladicí informace do konzole místo do souboru debug.log</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"></translation>
+        <translation>Posílat stopovací/ladicí informace do debuggeru</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished">Szervertanúsítvány-fájl (alapértelmezett: server.cert)
-</translation>
+        <translation>Soubor se serverovým certifikátem (výchozí: server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished">Szerver titkos kulcsa (alapértelmezett: server.pem)
-</translation>
+        <translation>Soubor se serverovým soukromým klíčem (výchozí: server.pem)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit velikost databázové vyrovnávací paměti v megabajtech (výchozí: 25)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished">Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
-</translation>
+        <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: 100)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit maximální velikost bloku v bajtech (výchozí: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit minimální velikost bloku v bajtech (výchozí: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"></translation>
+        <translation>Při spuštění klienta zmenšit soubor debug.log (výchozí: 1, pokud není zadáno -debug)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurační soubor (výchozí: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished">Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+        <translation>Zadej časový limit spojení v milisekundách (výchozí: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify data directory</source>
-        <translation type="unfinished">Adatkönyvtár
-</translation>
+        <translation>Adresář pro data</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: Denemecoind.pid)</source>
-        <translation type="unfinished">pid-fájl (alapértelmezett: Denemecoind.pid)
-</translation>
+        <translation>PID soubor (výchozí: Denemecoind.pid)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify your own public address</source>
-        <translation type="unfinished"></translation>
+        <translation>Specifikuj svou veřejnou adresu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>System error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Systémová chyba: </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This help message</source>
-        <translation type="unfinished">Ez a súgó-üzenet
-</translation>
+        <translation>Tato nápověda</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished"></translation>
+        <translation>Práh pro odpojování nesprávně se chovajících uzlů (výchozí: 100)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To use the %s option</source>
-        <translation type="unfinished"></translation>
+        <translation>K použití volby %s</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači (operace bind vrátila chybu %d, %s)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"></translation>
+        <translation>V -socks byla požadována neznámá verze proxy: %i</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>V -onlynet byla uvedena neznámá síť: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"></translation>
+        <translation>Převést peněženku na nejnovější formát</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Usage:</source>
-        <translation type="unfinished">Használat:</translation>
+        <translation>Užití:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished">OpenSSL (https) használata JSON-RPC csatalkozásokhoz
-</translation>
+        <translation>Použít OpenSSL (https) pro JSON-RPC spojení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+        <translation>Použít UPnP k namapování naslouchacího portu (výchozí: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+        <translation>Použít UPnP k namapování naslouchacího portu (výchozí: 1, pokud naslouchá)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít proxy k připojení ke skryté služby (výchozí: stejné jako -proxy)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use the test network</source>
-        <translation type="unfinished">Teszthálózat használata
-</translation>
+        <translation>Použít testovací síť (testnet)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished">Felhasználói név JSON-RPC csatlakozásokhoz
-</translation>
+        <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verifying database...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ověřuji databázi...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verifying wallet integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroluji integritu peněženky...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart Denemecoin to complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Denemecoin, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation>Upozornění</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozornění: tahle verze je zastaralá, měl bys ji aktualizovat!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"></translation>
+        <translation>Je třeba přestavět databázi použitím -reindex, aby bylo možné změnit -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Soubor wallet.dat je poškozen, jeho záchrana se nezdařila</translation>
     </message>
 </context>
 </TS>

@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Namecoin</source>
+        <source>About Denemecoin</source>
         <translation>Tietoa Bitcoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Namecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Namecoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Denemecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,7 +37,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+0"/>
-        <source>2009-%1 The Bitcoin and Namecoin developers</source>
+        <source>2009-%1 The Bitcoin and Denemecoin developers</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -70,8 +70,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Namecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat Namecoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
+        <source>These are your Denemecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Denemecoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -85,8 +85,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Namecoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat Namecoin-osoitteen</translation>
+        <source>Sign a message to prove you own a Denemecoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat Denemecoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -100,8 +100,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Namecoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Namecoin-osoitteella</translation>
+        <source>Verify a message to ensure it was signed with a specified Denemecoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Denemecoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -236,7 +236,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NAMECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DenemecoinS&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, tulet &lt;b&gt;MENETTÄMÄÄN KAIKKI BITCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -263,8 +263,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-56"/>
-        <source>Namecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Namecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Namecoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattu lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>Denemecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Denemecoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Denemecoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattu lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -312,14 +312,14 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="+118"/>
-        <source>A fatal error occurred. Namecoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished">Peruuttamaton virhe on tapahtunut. Namecoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Denemecoin can no longer continue safely and will quit.</source>
+        <translation type="unfinished">Peruuttamaton virhe on tapahtunut. Denemecoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+74"/>
         <location line="+565"/>
-        <source>Namecoin</source>
-        <translation type="unfinished">Namecoin</translation>
+        <source>Denemecoin</source>
+        <translation type="unfinished">Denemecoin</translation>
     </message>
     <message>
         <location line="-565"/>
@@ -343,8 +343,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Namecoin address</source>
-        <translation type="unfinished">Lähetä kolikoita Namecoin-osoitteeseen</translation>
+        <source>Send coins to a Denemecoin address</source>
+        <translation type="unfinished">Lähetä kolikoita Denemecoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -383,7 +383,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Manage names registered via Namecoin</source>
+        <source>Manage names registered via Denemecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -398,13 +398,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Namecoin</source>
+        <source>&amp;About Denemecoin</source>
         <translation type="unfinished">Tieto&amp;a Bitcoinista</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Namecoin</source>
-        <translation type="unfinished">Näytä tietoa Namecoin-projektista</translation>
+        <source>Show information about Denemecoin</source>
+        <translation type="unfinished">Näytä tietoa Denemecoin-projektista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -423,7 +423,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Namecoin</source>
+        <source>Modify configuration options for Denemecoin</source>
         <translation type="unfinished">Muuta Bitcoinin konfiguraatioasetuksia</translation>
     </message>
     <message>
@@ -473,7 +473,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Namecoin addresses to prove you own them</source>
+        <source>Sign messages with your Denemecoin addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -483,7 +483,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Namecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Denemecoin addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -540,15 +540,15 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-5"/>
         <location line="+5"/>
-        <source>Namecoin client</source>
-        <translation type="unfinished">Namecoin-asiakas</translation>
+        <source>Denemecoin client</source>
+        <translation type="unfinished">Denemecoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+81"/>
-        <source>%n active connection(s) to Namecoin network</source>
+        <source>%n active connection(s) to Denemecoin network</source>
         <translation type="unfinished">
-            <numerusform>%n aktiivinen yhteys Namecoin-verkkoon</numerusform>
-            <numerusform>%n aktiivista yhteyttä Namecoin-verkkoon</numerusform>
+            <numerusform>%n aktiivinen yhteys Denemecoin-verkkoon</numerusform>
+            <numerusform>%n aktiivista yhteyttä Denemecoin-verkkoon</numerusform>
         </translation>
     </message>
     <message>
@@ -681,8 +681,8 @@ Osoite: %4</translation>
     <message>
         <location line="-28"/>
         <location line="+28"/>
-        <source>URI can not be parsed! This can be caused by an invalid Namecoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Namecoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Denemecoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Denemecoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -861,7 +861,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-26"/>
-        <source>Namecoin address to which the name is assigned</source>
+        <source>Denemecoin address to which the name is assigned</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -876,7 +876,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+322"/>
-        <source>The Namecoin address to transfer
+        <source>The Denemecoin address to transfer
 the domain to, e.g.
 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9
 
@@ -983,8 +983,8 @@ Leave empty, if not needed.</source>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Namecoin address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi Namecoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Denemecoin address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi Denemecoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1002,8 +1002,8 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../guiutil.cpp" line="+423"/>
         <location line="+12"/>
-        <source>Namecoin-Qt</source>
-        <translation>Namecoin-Qt</translation>
+        <source>Denemecoin-Qt</source>
+        <translation>Denemecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1055,12 +1055,12 @@ Leave empty, if not needed.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Enter a name or domain name (prefixed with d/) to be registered via Namecoin.</source>
+        <source>Enter a name or domain name (prefixed with d/) to be registered via Denemecoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt; prefix for domain names. E.g. &lt;span style=&quot; font-weight:600;&quot;&gt;d/mysite&lt;/span&gt; will register &lt;span style=&quot; font-weight:600;&quot;&gt;mysite.bit&lt;/span&gt; (note: domains can be lower-case only, valid characters are alphanumeric and hyphen; hyphen can&apos;t be first/last character).&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; in Namecoin wiki for reference. Other prefixes can be used for miscellaneous purposes (not domain names).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt; prefix for domain names. E.g. &lt;span style=&quot; font-weight:600;&quot;&gt;d/mysite&lt;/span&gt; will register &lt;span style=&quot; font-weight:600;&quot;&gt;mysite.bit&lt;/span&gt; (note: domains can be lower-case only, valid characters are alphanumeric and hyphen; hyphen can&apos;t be first/last character).&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; in Denemecoin wiki for reference. Other prefixes can be used for miscellaneous purposes (not domain names).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1091,7 +1091,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+16"/>
-        <source>Enter Namecoin address (or prefix of it)</source>
+        <source>Enter Denemecoin address (or prefix of it)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1236,7 +1236,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+140"/>
-        <source>Name registered using Namecoin.</source>
+        <source>Name registered using Denemecoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1246,7 +1246,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Namecoin address to which the name is registered.</source>
+        <source>Denemecoin address to which the name is registered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1279,13 +1279,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Namecoin after logging in to the system.</source>
-        <translation>Käynnistä Namecoin kirjautumisen yhteydessä.</translation>
+        <source>Automatically start Denemecoin after logging in to the system.</source>
+        <translation>Käynnistä Denemecoin kirjautumisen yhteydessä.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Namecoin on system login</source>
-        <translation>&amp;Käynnistä Namecoin kirjautumisen yhteydessä</translation>
+        <source>&amp;Start Denemecoin on system login</source>
+        <translation>&amp;Käynnistä Denemecoin kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1304,8 +1304,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Namecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Namecoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Denemecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Denemecoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1314,8 +1314,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Namecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ota yhteys Namecoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
+        <source>Connect to the Denemecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ota yhteys Denemecoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1370,7 +1370,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää Namecoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää Denemecoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1389,23 +1389,23 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Namecoin.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Namecoin käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Denemecoin.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Denemecoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona Namecoin-määrät näytetään</translation>
+        <translation>Yksikkö jona Denemecoin-määrät näytetään</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti Namecoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti Denemecoin-määrien näyttämiseen.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Namecoin addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö Namecoin-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show Denemecoin addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö Denemecoin-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1456,8 +1456,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Namecoin.</source>
-        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun Namecoin käynnistetään.</translation>
+        <source>This setting will take effect after restarting Denemecoin.</source>
+        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun Denemecoin käynnistetään.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1475,8 +1475,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+51"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Namecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Namecoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Denemecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Denemecoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <location line="-141"/>
@@ -1521,7 +1521,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita Namecoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita Denemecoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1539,7 +1539,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+108"/>
-        <source>Cannot start namecoin: click-to-pay handler</source>
+        <source>Cannot start Denemecoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1689,8 +1689,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Namecoin-Qt help message to get a list with possible Namecoin command-line options.</source>
-        <translation>Näytä Namecoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
+        <source>Show the Denemecoin-Qt help message to get a list with possible Denemecoin command-line options.</source>
+        <translation>Näytä Denemecoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1709,13 +1709,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="-104"/>
-        <source>Namecoin - Debug window</source>
-        <translation>Namecoin - Debug ikkuna</translation>
+        <source>Denemecoin - Debug window</source>
+        <translation>Denemecoin - Debug ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Namecoin Core</source>
-        <translation>Namecoin-ydin</translation>
+        <source>Denemecoin Core</source>
+        <translation>Denemecoin-ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1724,7 +1724,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Namecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Denemecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1734,8 +1734,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Namecoin RPC console.</source>
-        <translation>Tervetuloa Namecoin RPC konsoliin.</translation>
+        <source>Welcome to the Denemecoin RPC console.</source>
+        <translation>Tervetuloa Denemecoin RPC konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1918,8 +1918,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Namecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Anna Namecoin-osoite (esim. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
+        <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
+        <translation>Anna Denemecoin-osoite (esim. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
 </context>
 <context>
@@ -1983,8 +1983,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Namecoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Namecoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Denemecoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Denemecoin-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2019,8 +2019,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Namecoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Namecoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Denemecoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Denemecoin-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2035,8 +2035,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+26"/>
         <location line="+3"/>
-        <source>Enter a Namecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Anna Namecoin-osoite (esim. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
+        <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
+        <translation>Anna Denemecoin-osoite (esim. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Namecoin signature</source>
-        <translation>Syötä Namecoin-allekirjoitus</translation>
+        <source>Enter Denemecoin signature</source>
+        <translation>Syötä Denemecoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2414,7 +2414,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen Namecoin-osoite</translation>
+        <translation>Rahansiirron kohteen Denemecoin-osoite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2610,7 +2610,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+38"/>
-        <source>Invalid Namecoin address</source>
+        <source>Invalid Denemecoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2630,13 +2630,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
 </context>
 <context>
-    <name>namecoin-core</name>
+    <name>Denemecoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=namecoinrpc
+rpcuser=Denemecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2667,7 +2667,7 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Namecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Denemecoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2722,8 +2722,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Namecoin is probably already running.</source>
-        <translation type="unfinished">Kytkeytyminen %s ei onnistu tällä tietokoneella. Namecoin on todennäköisesti jo ajamassa.</translation>
+        <source>Unable to bind to %s on this computer. Denemecoin is probably already running.</source>
+        <translation type="unfinished">Kytkeytyminen %s ei onnistu tällä tietokoneella. Denemecoin on todennäköisesti jo ajamassa.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2737,8 +2737,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Namecoin will not work properly.</source>
-        <translation type="unfinished">Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Namecoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Denemecoin will not work properly.</source>
+        <translation type="unfinished">Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Denemecoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2791,7 +2791,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Namecoin version</source>
+        <source>Denemecoin version</source>
         <translation type="unfinished">Bitcoinin versio</translation>
     </message>
     <message>
@@ -2886,7 +2886,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Namecoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Denemecoin</source>
         <translation type="unfinished">Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Bitcoinista</translation>
     </message>
     <message>
@@ -3166,8 +3166,8 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or namecoind</source>
-        <translation type="unfinished">Lähetä käsky palvelimelle tai namecoind:lle</translation>
+        <source>Send command to -server or Denemecoind</source>
+        <translation type="unfinished">Lähetä käsky palvelimelle tai Denemecoind:lle</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3236,8 +3236,8 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: namecoind.pid)</source>
-        <translation type="unfinished">Määritä pid-tiedosto (oletus: Namecoin.pid)</translation>
+        <source>Specify pid file (default: Denemecoind.pid)</source>
+        <translation type="unfinished">Määritä pid-tiedosto (oletus: Denemecoin.pid)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3331,8 +3331,8 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Namecoin to complete</source>
-        <translation type="unfinished">Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Namecoin uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart Denemecoin to complete</source>
+        <translation type="unfinished">Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Denemecoin uudelleen</translation>
     </message>
     <message>
         <location line="+1"/>

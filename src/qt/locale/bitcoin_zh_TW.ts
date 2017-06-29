@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<TS version="2.0" language="zh_TW">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Denemecoin</source>
-        <translation>A Bitcoinról</translation>
+        <translation>關於位元幣</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Denemecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; verzió</translation>
+        <translation>&lt;b&gt;位元幣&lt;/b&gt;版本</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -23,10 +23,11 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Ez egy kísérleti program.
-MIT/X11 szoftverlicenc alatt kiadva, lásd a mellékelt fájlt COPYING vagy http://www.opensource.org/licenses/mit-license.php.
+這是一套實驗性的軟體.
 
-Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (http://www.openssl.org/) és kriptográfiai szoftvertben való felhasználásra,  írta Eric Young (eay@cryptsoft.com) és UPnP szoftver, írta Thomas Bernard.</translation>
+此軟體是依據 MIT/X11 軟體授權條款散布, 詳情請見附帶的 COPYING 檔案, 或是以下網站: http://www.opensource.org/licenses/mit-license.php.
+
+此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit (http://www.openssl.org/) 軟體, 由 Eric Young (eay@cryptsoft.com) 撰寫的加解密軟體, 以及由 Thomas Bernard 所撰寫的 UPnP 軟體.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+17"/>
@@ -44,82 +45,82 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Címjegyzék</translation>
+        <translation>位址簿</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dupla-katt a cím vagy a címke szerkesztéséhez</translation>
+        <translation>點兩下來修改位址或標記</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Új cím létrehozása</translation>
+        <translation>產生新位址</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>A kiválasztott cím másolása a vágólapra</translation>
+        <translation>複製目前選取的位址到系統剪貼簿</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Új cím</translation>
+        <translation>新增位址</translation>
     </message>
     <message>
         <location line="-46"/>
         <source>These are your Denemecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a Denemecoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <translation>這些是你用來收款的位元幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
     </message>
     <message>
         <location line="+60"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Cím másolása</translation>
+        <translation>複製位址</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示 &amp;QR 條碼</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>簽署一則訊息來證明一個位元幣位址是你的</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>簽署訊息</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"></translation>
+        <translation>從列表中刪除目前選取的位址</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Verify a message to ensure it was signed with a specified Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證一則訊息以確認它是用指定的位元幣位址簽署的</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證訊息</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Törlés</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Címke &amp;másolása</translation>
+        <translation>複製標記</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -129,22 +130,22 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+263"/>
         <source>Export Address Book Data</source>
-        <translation>Címjegyzék adatainak exportálása</translation>
+        <translation>匯出位址簿資料</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*. csv)</translation>
+        <translation>逗號區隔資料檔 (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Hiba exportálás közben</translation>
+        <translation>資料匯出有誤</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 nevű fájl nem írható.</translation>
+        <translation>無法寫入檔案 %1.</translation>
     </message>
 </context>
 <context>
@@ -152,17 +153,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../addresstablemodel.cpp" line="+146"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>標記</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>位址</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(nincs címke)</translation>
+        <translation>(沒有標記)</translation>
     </message>
 </context>
 <context>
@@ -170,99 +171,99 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>密碼對話視窗</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Add meg a jelszót</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Új jelszó</translation>
+        <translation>新的密碼</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Új jelszó újra</translation>
+        <translation>重複新密碼</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Írd be az új jelszót a tárcához.&lt;br/&gt;Használj legalább 10&lt;br/&gt;véletlenszerű karaktert&lt;/b&gt; vagy &lt;b&gt;legalább nyolc szót&lt;/b&gt;.</translation>
+        <translation>輸入錢包的新密碼.&lt;br/&gt;請用&lt;b&gt;10個以上的字元&lt;/b&gt;, 或是&lt;b&gt;8個以上的單字&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Tárca kódolása</translation>
+        <translation>錢包加密</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>A tárcád megnyitásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>這個動作需要用你的錢包密碼來解鎖</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Tárca megnyitása</translation>
+        <translation>錢包解鎖</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>A tárcád dekódolásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>這個動作需要用你的錢包密碼來解密</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Tárca dekódolása</translation>
+        <translation>錢包解密</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Jelszó megváltoztatása</translation>
+        <translation>變更密碼</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Írd be a tárca régi és új jelszavát.</translation>
+        <translation>輸入錢包的新舊密碼.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>錢包加密確認</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DenemecoinS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <translation>警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的位元幣&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>你確定要將錢包加密嗎?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>重要: 請改用新產生有加密的錢包檔, 來取代之前錢包檔的備份. 為了安全性的理由, 當你開始使用新的有加密的錢包時, 舊錢包的備份就不能再使用了.</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: 大寫字母鎖定作用中!</translation>
     </message>
     <message>
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Tárca kódolva</translation>
+        <translation>錢包已加密</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Denemecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Denemecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Denemecoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <translation type="unfinished">位元幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的位元幣.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -270,40 +271,40 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Tárca kódolása sikertelen.</translation>
+        <translation>錢包加密失敗</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Tárca kódolása belső hiba miatt sikertelen. A tárcád nem lett kódolva.</translation>
+        <translation>錢包加密因程式內部有誤而失敗. 你的錢包還是沒有加密.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>A megadott jelszavak nem egyeznek.</translation>
+        <translation>提供的密碼不符.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Tárca megnyitása sikertelen</translation>
+        <translation>錢包解鎖失敗</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Hibás jelszó.</translation>
+        <translation>用來解密錢包的密碼輸入錯誤.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekódolás sikertelen.</translation>
+        <translation>錢包解密失敗</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Jelszó megváltoztatva.</translation>
+        <translation>錢包密碼變更成功.</translation>
     </message>
 </context>
 <context>
@@ -311,68 +312,68 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../bitcoin.cpp" line="+118"/>
         <source>A fatal error occurred. Denemecoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">發生了致命的錯誤. 位元幣程式無法再繼續安全執行, 只好結束.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+74"/>
         <location line="+565"/>
         <source>Denemecoin</source>
-        <translation type="unfinished">Denemecoin</translation>
+        <translation type="unfinished">位元幣</translation>
     </message>
     <message>
         <location line="-565"/>
         <source>Wallet</source>
-        <translation type="unfinished">Tárca</translation>
+        <translation type="unfinished">錢包</translation>
     </message>
     <message>
         <location line="+142"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Áttekintés</translation>
+        <translation type="unfinished">總覽</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Tárca általános áttekintése</translation>
+        <translation type="unfinished">顯示錢包一般總覽</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">Érmék &amp;küldése</translation>
+        <translation type="unfinished">付錢</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send coins to a Denemecoin address</source>
-        <translation type="unfinished">Érmék küldése megadott címre</translation>
+        <translation type="unfinished">付錢到一個位元幣位址</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Receive coins</source>
-        <translation type="unfinished">Érmék &amp;fogadása</translation>
+        <translation type="unfinished">收錢</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished">Kiizetést fogadó címek listája</translation>
+        <translation type="unfinished">顯示收款位址的列表</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Tranzakciók</translation>
+        <translation type="unfinished">交易</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Tranzakciótörténet megtekintése</translation>
+        <translation type="unfinished">瀏覽交易紀錄</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Address Book</source>
-        <translation type="unfinished">Cím&amp;jegyzék</translation>
+        <translation type="unfinished">位址簿</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished">Tárolt címek és címkék listájának szerkesztése</translation>
+        <translation type="unfinished">編輯位址與標記的儲存列表</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -387,181 +388,181 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+19"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Kilépés</translation>
+        <translation type="unfinished">結束</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation type="unfinished">Kilépés</translation>
+        <translation type="unfinished">結束應用程式</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;About Denemecoin</source>
-        <translation type="unfinished">&amp;A Bitcoinról</translation>
+        <translation type="unfinished">關於位元幣</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Denemecoin</source>
-        <translation type="unfinished">Információk a Bitcoinról</translation>
+        <translation type="unfinished">顯示位元幣相關資訊</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">A &amp;Qt-ról</translation>
+        <translation type="unfinished">關於 &amp;Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Információk a Qt ról</translation>
+        <translation type="unfinished">顯示有關於 Qt 的資訊</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished">&amp;Opciók...</translation>
+        <translation type="unfinished">選項...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modify configuration options for Denemecoin</source>
-        <translation type="unfinished">Denemecoin konfigurációs opciók</translation>
+        <translation type="unfinished">修改位元幣的設定選項</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">顯示或隱藏</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">顯示或隱藏主視窗</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished">Tárca &amp;kódolása...</translation>
+        <translation type="unfinished">錢包加密...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">將屬於你的錢包的密鑰加密</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包備份...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">將錢包備份到其它地方</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished">Jelszó &amp;megváltoztatása...</translation>
+        <translation type="unfinished">密碼變更...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Tárcakódoló jelszó megváltoztatása</translation>
+        <translation type="unfinished">變更錢包加密用的密碼</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">訊息簽署...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Sign messages with your Denemecoin addresses to prove you own them</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">用位元幣位址簽署訊息來證明那是你的</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">訊息驗證...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verify messages to ensure they were signed with specified Denemecoin addresses</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">驗證訊息以確認那是用指定的位元幣位址簽署的</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Export...</source>
-        <translation type="unfinished">&amp;Exportálás...</translation>
+        <translation type="unfinished">匯出...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Jelenlegi nézet exportálása fájlba</translation>
+        <translation type="unfinished">將目前分頁的資料匯出存成檔案</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">除錯視窗</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">開啓除錯與診斷主控台</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fájl</translation>
+        <translation type="unfinished">檔案</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Beállítások</translation>
+        <translation type="unfinished">設定</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Súgó</translation>
+        <translation type="unfinished">求助</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Fül eszköztár</translation>
+        <translation type="unfinished">分頁工具列</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Actions toolbar</source>
-        <translation type="unfinished">Parancsok eszköztár</translation>
+        <translation type="unfinished">動作工具列</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+81"/>
         <source>[testnet]</source>
-        <translation type="unfinished">[teszthálózat]</translation>
+        <translation type="unfinished">[testnet]</translation>
     </message>
     <message>
         <location line="-5"/>
         <location line="+5"/>
         <source>Denemecoin client</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">位元幣客戶端軟體</translation>
     </message>
     <message numerus="yes">
         <location line="+81"/>
         <source>%n active connection(s) to Denemecoin network</source>
         <translation type="unfinished">
-            <numerusform>%n aktív kapcsolat a Denemecoin-hálózattal</numerusform>
+            <numerusform>與位元幣網路有 %n 個連線在使用中</numerusform>
         </translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">Szinkronizálás a hálózattal...</translation>
+        <translation type="unfinished">網路同步中...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Importing blocks from disk...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">從磁碟匯入區塊中...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">重建磁碟區塊索引中...</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -571,12 +572,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">已處理了 %1 個區塊的交易紀錄.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Up to date</source>
-        <translation type="unfinished">Naprakész</translation>
+        <translation type="unfinished">最新狀態</translation>
     </message>
     <message numerus="yes">
         <location line="+14"/>
@@ -607,7 +608,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+5"/>
         <source>Catching up...</source>
-        <translation type="unfinished">Frissítés...</translation>
+        <translation type="unfinished">進度追趕中...</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -622,37 +623,37 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+21"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation type="unfinished">警告</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">資訊</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">這筆交易的資料大小超過限制了. 你還是可以付出 %1 的費用來傳送, 這筆費用會付給處理你的交易的節點, 並幫助維持整個網路. 你願意支付這項費用嗎?</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Confirm transaction fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">確認交易手續費</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Sent transaction</source>
-        <translation type="unfinished">Tranzakció elküldve.</translation>
+        <translation type="unfinished">付款交易</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Beérkező tranzakció</translation>
+        <translation type="unfinished">收款交易</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -661,63 +662,62 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished">Dátum: %1
-Összeg: %2
-Típus: %3
-Cím: %4
-</translation>
+        <translation type="unfinished">日期: %1
+金額: %2
+類別: %3
+位址: %4</translation>
     </message>
     <message>
         <location line="+112"/>
         <location line="+28"/>
         <source>URI handling</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">URI 處理</translation>
     </message>
     <message>
         <location line="-28"/>
         <location line="+28"/>
         <source>URI can not be parsed! This can be caused by an invalid Denemecoin address or malformed URI parameters.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法解析 URI! 也許位元幣位址無效或 URI 參數有誤.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;nyitva&lt;/b&gt;.</translation>
+        <translation type="unfinished">錢包&lt;b&gt;已加密&lt;/b&gt;並且正&lt;b&gt;解鎖中&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
+        <translation type="unfinished">錢包&lt;b&gt;已加密&lt;/b&gt;並且正&lt;b&gt;上鎖中&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Backup Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包備份</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包資料檔 (*.dat)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">備份失敗</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">儲存錢包資料到新的地方時發生錯誤</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">備份成功</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包的資料已經成功儲存到新的地方了.</translation>
     </message>
 </context>
 <context>
@@ -836,7 +836,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+35"/>
         <source>Choose address from address book</source>
-        <translation type="unfinished">Válassz egy címet a címjegyzékből</translation>
+        <translation type="unfinished">從位址簿中選一個位址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -846,7 +846,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
+        <translation type="unfinished">從剪貼簿貼上位址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -929,67 +929,67 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Cím szerkesztése</translation>
+        <translation>編輯位址</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>Cím&amp;ke</translation>
+        <translation>標記</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>A címhez tartozó címke</translation>
+        <translation>與這個位址簿項目關聯的標記</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Cím</translation>
+        <translation>位址</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Az ehhez a címjegyzék-bejegyzéshez tartozó cím. Ez csak a küldő címeknél módosítható.</translation>
+        <translation>與這個位址簿項目關聯的位址. 只能修改付款位址.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Új fogadó cím</translation>
+        <translation>新收款位址</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Új küldő cím</translation>
+        <translation>新付款位址</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Fogadó cím szerkesztése</translation>
+        <translation>編輯收款位址</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Küldő cím szerkesztése</translation>
+        <translation>編輯付款位址</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
+        <translation>輸入的位址&quot;%1&quot;已存在於位址簿中.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Denemecoin address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Denemecoin-cím.</translation>
+        <translation>輸入的位址 &quot;%1&quot; 並不是有效的位元幣位址.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Tárca feloldása sikertelen</translation>
+        <translation>無法將錢包解鎖.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Új kulcs generálása sikertelen</translation>
+        <translation>新密鑰產生失敗.</translation>
     </message>
 </context>
 <context>
@@ -998,43 +998,43 @@ Leave empty, if not needed.</source>
         <location filename="../guiutil.cpp" line="+423"/>
         <location line="+12"/>
         <source>Denemecoin-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>位元幣-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>verzió</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Használat:</translation>
+        <translation>用法:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>命令列選項</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI opciók</translation>
+        <translation>使用界面選項</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"></translation>
+        <translation>設定語言, 比如說 &quot;de_DE&quot; (預設: 系統語系)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Indítás lekicsinyítve
+        <translation>啓動時最小化
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示啓動畫面 (預設: 1)</translation>
     </message>
 </context>
 <context>
@@ -1228,7 +1228,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Cím</translation>
+        <translation type="unfinished">位址</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -1256,209 +1256,209 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Opciók</translation>
+        <translation>選項</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Fő</translation>
+        <translation>主要</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Opcionális, kB-onkénti tranzakciós díj a tranzakcióid minél gyorsabb feldolgozásának elősegítésére.  A legtöbb tranzakció 1 kB-os.  0,01 NMC ajánlott.</translation>
+        <translation>非必要的交易手續費, 以 kB 為計費單位, 且有助於縮短你的交易處理時間. 大部份交易的資料大小是 1 kB. 建議設定為 0.01 元.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Tranzakciós &amp;díj fizetése</translation>
+        <translation>付交易手續費</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Denemecoin after logging in to the system.</source>
-        <translation>Induljon el a Denemecoin a számítógép bekapcsolásakor</translation>
+        <translation>在登入系統後自動啓動位元幣.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Denemecoin on system login</source>
-        <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
+        <translation>系統登入時啟動位元幣</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"></translation>
+        <translation>回復所有客戶端軟體選項成預設值.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"></translation>
+        <translation>選項回復</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>網路</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Denemecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Denemecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <translation>自動在路由器上開啟 Denemecoin 的客戶端通訊埠. 只有在你的路由器支援 UPnP 且開啟時才有作用.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>&amp;UPnP port-feltérképezés</translation>
+        <translation>用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Denemecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a Denemecoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <translation>透過 SOCKS 代理伺服器連線至位元幣網路 (比如說要透過 Tor 連線).</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Csatlakozás SOCKS proxyn keresztül:</translation>
+        <translation>透過 SOCKS 代理伺服器連線:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>代理伺服器位址:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Proxy IP címe (pl.: 127.0.0.1)</translation>
+        <translation>代理伺服器的網際網路位址 (比如說 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>通訊埠:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy portja (pl.: 9050)</translation>
+        <translation>代理伺服器的通訊埠 (比如說 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS 協定版本:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"></translation>
+        <translation>代理伺服器的 SOCKS 協定版本 (比如說 5)</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation type="unfinished"></translation>
+        <translation>視窗</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Kicsinyítés után csak eszköztár-ikont mutass</translation>
+        <translation>最小化視窗後只在通知區域顯示圖示</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
+        <translation>最小化至通知區域而非工作列</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
+        <translation>當視窗關閉時將其最小化, 而非結束應用程式. 當勾選這個選項時, 應用程式只能用選單中的結束來停止執行.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>K&amp;icsinyítés záráskor</translation>
+        <translation>關閉時最小化</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Megjelenítés</translation>
+        <translation>顯示</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished"></translation>
+        <translation>使用界面語言</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>可以在這裡設定使用者介面的語言. 這個設定在位元幣程式重啓後才會生效.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Mértékegység:</translation>
+        <translation>金額顯示單位:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
+        <translation>選擇操作界面與付錢時預設顯示的細分單位.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Denemecoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>是否要在交易列表中顯示位元幣位址.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Címek megjelenítése a tranzakciólistában</translation>
+        <translation>在交易列表顯示位址</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>好</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>套用</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation>預設</translation>
     </message>
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation type="unfinished"></translation>
+        <translation>確認回復選項</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>有些設定可能需要重新啓動客戶端軟體才會生效.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>你想要就做下去嗎?</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Figyelem</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Denemecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個設定會在位元幣程式重啓後生效.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>提供的代理伺服器位址無效</translation>
     </message>
 </context>
 <context>
@@ -1466,69 +1466,69 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <location line="+51"/>
         <location line="+183"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Denemecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示的資訊可能是過期的. 與位元幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
     </message>
     <message>
         <location line="-141"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>餘額:</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Number of transactions:</source>
-        <translation>Tranzakciók száma:</translation>
+        <translation>交易次數:</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Unconfirmed:</source>
-        <translation>Megerősítetlen:</translation>
+        <translation>未確認額:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Tárca</translation>
+        <translation>錢包</translation>
     </message>
     <message>
         <location line="+124"/>
         <source>Immature:</source>
-        <translation type="unfinished"></translation>
+        <translation>未熟成</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"></translation>
+        <translation>尚未熟成的開採金額</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Legutóbbi tranzakciók&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;最近交易&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-118"/>
         <source>Your current balance</source>
-        <translation>Aktuális egyenleged</translation>
+        <translation>目前餘額</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Még megerősítésre váró, a jelenlegi egyenlegbe be nem számított tranzakciók</translation>
+        <translation>尚未確認之交易的總額, 不包含在目前餘額中</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Total number of transactions in wallet</source>
-        <translation>Tárca összes tranzakcióinak száma</translation>
+        <translation>錢包中紀錄的總交易次數</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+115"/>
         <location line="+1"/>
         <source>out of sync</source>
-        <translation type="unfinished"></translation>
+        <translation>沒同步</translation>
     </message>
 </context>
 <context>
@@ -1544,57 +1544,57 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>QR 條碼對話視窗</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation type="unfinished"></translation>
+        <translation>付款單</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Összeg:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Címke:</translation>
+        <translation>標記:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Üzenet:</translation>
+        <translation>訊息:</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存為...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"></translation>
+        <translation>將 URI 編碼成 QR 條碼時發生錯誤</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"></translation>
+        <translation>輸入的金額無效, 請檢查看看.</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"></translation>
+        <translation>造出的網址太長了,請把標籤或訊息的文字縮短再試看看.</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Save QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存 QR 條碼</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation type="unfinished"></translation>
+        <translation>PNG 圖檔 (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1602,7 +1602,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
-        <translation type="unfinished"></translation>
+        <translation>客戶端軟體名稱</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1616,132 +1616,132 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+23"/>
         <location filename="../rpcconsole.cpp" line="+345"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>無</translation>
     </message>
     <message>
         <location line="-217"/>
         <source>Client version</source>
-        <translation type="unfinished"></translation>
+        <translation>客戶端軟體版本</translation>
     </message>
     <message>
         <location line="-45"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation>資訊</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 OpenSSL 版本</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Startup time</source>
-        <translation type="unfinished"></translation>
+        <translation>啓動時間</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>網路</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Number of connections</source>
-        <translation type="unfinished"></translation>
+        <translation>連線數</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation type="unfinished"></translation>
+        <translation>位於測試網路</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation type="unfinished"></translation>
+        <translation>區塊鎖鏈</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>目前區塊數</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>估計總區塊數</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Last block time</source>
-        <translation type="unfinished"></translation>
+        <translation>最近區塊時間</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>開啓</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>命令列選項</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Show the Denemecoin-Qt help message to get a list with possible Denemecoin command-line options.</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示位元幣-Qt的求助訊息, 來取得可用的命令列選項列表.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>&amp;Console</source>
-        <translation type="unfinished"></translation>
+        <translation>主控台</translation>
     </message>
     <message>
         <location line="-260"/>
         <source>Build date</source>
-        <translation type="unfinished"></translation>
+        <translation>建置日期</translation>
     </message>
     <message>
         <location line="-104"/>
         <source>Denemecoin - Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>位元幣 - 除錯視窗</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Denemecoin Core</source>
-        <translation type="unfinished"></translation>
+        <translation>位元幣核心</translation>
     </message>
     <message>
         <location line="+279"/>
         <source>Debug log file</source>
-        <translation type="unfinished"></translation>
+        <translation>除錯紀錄檔</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Open the Denemecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"></translation>
+        <translation>從目前的資料目錄下開啓位元幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation>清主控台</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Denemecoin RPC console.</source>
-        <translation type="unfinished"></translation>
+        <translation>歡迎使用位元幣 RPC 主控台.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>請用上下游標鍵來瀏覽歷史指令, 且可用 &lt;b&gt;Ctrl-L&lt;/b&gt; 來清理畫面.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation>請打 &lt;b&gt;help&lt;/b&gt; 來看可用指令的簡介.</translation>
     </message>
 </context>
 <context>
@@ -1756,32 +1756,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Érmék küldése</translation>
+        <translation>付錢</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Küldés több címzettnek egyszerre</translation>
+        <translation>一次付給多個人</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Címzett hozzáadása</translation>
+        <translation>加收款人</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation type="unfinished"></translation>
+        <translation>移除所有交易欄位</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>全部清掉</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>餘額:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1791,67 +1791,67 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>確認付款動作</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;Küldés</translation>
+        <translation>付出</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; %2-re (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; 給 %2 (%3)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>確認付出金額</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Valóban el akarsz küldeni %1-t?</translation>
+        <translation>確定要付出 %1 嗎?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> és</translation>
+        <translation>和</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>A címzett címe érvénytelen, kérlek, ellenőrizd.</translation>
+        <translation>無效的收款位址, 請再檢查看看.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>A fizetendő összegnek nagyobbnak kell lennie 0-nál.</translation>
+        <translation>付款金額必須大於 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi Denemecoin az egyenlegeden.</translation>
+        <translation>金額超過餘額了.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>A küldeni kívánt összeg és a %1 tranzakciós díj együtt meghaladja az egyenlegeden rendelkezésedre álló összeget.</translation>
+        <translation>包含 %1 的交易手續費後, 總金額超過你的餘額了.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
+        <translation>發現有重複的位址. 在一次付款動作中, 只能付給每個位址一次.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤: 交易產生失敗!</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Hiba: a tranzakciót elutasították. Ezt az okozhatja, ha már elköltöttél valamennyi érmét a tárcádból például ha a wallet.dat-od egy másolatát használtad, és így az elköltés csak abban lett jelölve, de itt nem.</translation>
+        <translation>錯誤: 交易被拒絕. 有時候會發生這種錯誤, 是因為你錢包中的一些錢已經被花掉了. 比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢, 你現在所用的原來的錢包中卻沒有該筆交易紀錄.</translation>
     </message>
 </context>
 <context>
@@ -1859,39 +1859,38 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Összeg:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Címzett:</translation>
+        <translation>付給:</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation type="unfinished"></translation>
+        <translation>付款的目標位址 (比如說 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
-</translation>
+        <translation>輸入一個標記給這個位址, 並加到位址簿中</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>Címke:</translation>
+        <translation>標記:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>從位址簿中選一個位址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1901,7 +1900,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>從剪貼簿貼上位址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1911,12 +1910,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Címzett eltávolítása</translation>
+        <translation>去掉這個收款人</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>輸入位元幣位址 (比如說 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
 </context>
 <context>
@@ -1924,28 +1923,28 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"></translation>
+        <translation>簽章 - 簽署或驗證訊息</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished"></translation>
+        <translation>簽署訊息</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"></translation>
+        <translation>你可以用自己的位址來簽署訊息, 以證明你對它的所有權. 但是請小心, 不要簽署語意含糊不清的內容, 因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你. 只有在語句中的細節你都同意時才簽署.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>用來簽署訊息的位址 (比如說 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>從位址簿選一個位址</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1956,7 +1955,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>從剪貼簿貼上位址</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1966,142 +1965,142 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished"></translation>
+        <translation>在這裡輸入你想簽署的訊息</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>簽章</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>簽署一則訊息來證明一個位元幣位址是你的</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息簽署</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>重置所有訊息簽署欄位</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>全部清掉</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證訊息</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"></translation>
+        <translation>請在下面輸入簽署的位址, 訊息(請確認完整複製了所包含的換行, 空格, 跳位符號等等), 與簽章, 以驗證該訊息. 請小心, 除了訊息內容外, 不要對簽章本身過度解讀, 以避免被用&quot;中間人攻擊法&quot;詐騙.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>簽署該訊息的位址 (比如說 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Denemecoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>驗證這則訊息以確認它是用指定的位元幣位址簽署的</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息驗證</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"></translation>
+        <translation>重置所有訊息驗證欄位</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+26"/>
         <location line="+3"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>輸入位元幣位址 (比如說 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"></translation>
+        <translation>按&quot;簽署訊息&quot;來產生簽章</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter Denemecoin signature</source>
-        <translation type="unfinished"></translation>
+        <translation>輸入位元幣簽章</translation>
     </message>
     <message>
         <location line="+82"/>
         <location line="+82"/>
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>輸入的位址無效.</translation>
     </message>
     <message>
         <location line="-82"/>
         <location line="+82"/>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>請檢查位址是否正確後再試一次.</translation>
     </message>
     <message>
         <location line="-74"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"></translation>
+        <translation>錢包解鎖已取消.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有所輸入位址的密鑰.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Message signing failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息簽署失敗.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息已簽署.</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>The signature could not be decoded.</source>
-        <translation type="unfinished"></translation>
+        <translation>無法將這個簽章解碼.</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>請檢查簽章是否正確後再試一次.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個簽章與訊息的數位摘要不符.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息驗證失敗.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation type="unfinished"></translation>
+        <translation>訊息已驗證.</translation>
     </message>
 </context>
 <context>
@@ -2109,73 +2108,73 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiondesc.cpp" line="+21"/>
         <source>Open until %1</source>
-        <translation>Megnyitva %1-ig</translation>
+        <translation>在 %1 前未定</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1/offline</source>
-        <translation type="unfinished"></translation>
+        <translation>%1/離線中</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/megerősítetlen</translation>
+        <translation>%1/未確認</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 megerősítés</translation>
+        <translation>經確認 %1 次</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Állapot</translation>
+        <translation>狀態</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>, 已公告至 %n 個節點</numerusform>
         </translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>來源</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>Legenerálva</translation>
+        <translation>生產出</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>Űrlap</translation>
+        <translation>來處</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+88"/>
         <source>To</source>
-        <translation>Címzett</translation>
+        <translation>目的</translation>
     </message>
     <message>
         <location line="-107"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation type="unfinished"></translation>
+        <translation>自己的位址</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>címke</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2184,19 +2183,19 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+16"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Jóváírás</translation>
+        <translation>入帳</translation>
     </message>
     <message numerus="yes">
         <location line="-171"/>
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>將在 %n 個區塊產出後熟成</numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>elutasítva</translation>
+        <translation>不被接受</translation>
     </message>
     <message>
         <location line="+74"/>
@@ -2209,69 +2208,69 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+14"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Terhelés</translation>
+        <translation>出帳</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Tranzakciós díj</translation>
+        <translation>交易手續費</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Nettó összeg</translation>
+        <translation>淨額</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Üzenet</translation>
+        <translation>訊息</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Megjegyzés</translation>
+        <translation>附註</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transaction ID</source>
-        <translation type="unfinished"></translation>
+        <translation>交易識別碼</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>A frissen generált érméket csak 120 blokkal később tudod elkölteni.  Ez a blokk nyomban szétküldésre került a hálózatba, amint legeneráltad, hogy hozzáadhassák a blokklánchoz.  Ha nem kerül be a láncba, úgy az állapota &quot;elutasítva&quot;-ra módosul,  és nem költheted el az érméket. Ez akkor következhet be időnként, ha egy másik csomópont mindössze néhány másodperc különbséggel generált le egy blokkot a tiédhez képest.</translation>
+        <translation>生產出來的錢要再等 120 個區塊熟成之後, 才能夠花用. 當你產出區塊時, 它會被公布到網路上, 以被串連至區塊鎖鏈. 如果串連失敗了, 它的狀態就會變成&quot;不被接受&quot;, 且不能被花用. 當你產出區塊的幾秒鐘內, 也有其他節點產出區塊的話, 有時候就會發生這種情形.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Debug information</source>
-        <translation type="unfinished"></translation>
+        <translation>除錯資訊</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Tranzakció</translation>
+        <translation>交易</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>輸入</translation>
     </message>
     <message>
         <location line="-254"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, még nem sikerült elküldeni.</translation>
+        <translation>, 尚未成功公告出去</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>在接下來 %n 個區塊產出前未定</numerusform>
         </translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>ismeretlen</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
@@ -2279,12 +2278,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Tranzakció részletei</translation>
+        <translation>交易明細</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ez a mező a tranzakció részleteit mutatja</translation>
+        <translation>此版面顯示交易的詳細說明</translation>
     </message>
 </context>
 <context>
@@ -2292,91 +2291,91 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiontablemodel.cpp" line="+227"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>位址</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>金額</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>在接下來 %n 個區塊產出前未定</numerusform>
         </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>%1-ig megnyitva</translation>
+        <translation>在 %1 前未定</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 megerősítés)</translation>
+        <translation>離線中 (經確認 %1 次)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Megerősítetlen (%1 %2 megerősítésből)</translation>
+        <translation>未確認 (經確認 %1 次, 應確認 %2 次)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Megerősítve (%1 megerősítés)</translation>
+        <translation>已確認 (經確認 %1 次)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>開採金額將可在 %n 個區塊熟成後可用</numerusform>
         </translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ezt a blokkot egyetlen másik csomópont sem kapta meg, így valószínűleg nem lesz elfogadva!</translation>
+        <translation>沒有其他節點收到這個區塊, 也許它不被接受!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Legenerálva, de még el nem fogadva.</translation>
+        <translation>生產出但不被接受</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>收受於</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Erről az</translation>
+        <translation>收受自</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>付出至</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Magadnak kifizetve</translation>
+        <translation>付給自己</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>開採所得</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2386,32 +2385,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+41"/>
         <source>(n/a)</source>
-        <translation>(nincs)</translation>
+        <translation>(不適用)</translation>
     </message>
     <message>
         <location line="+200"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Tranzakció állapota. Húzd ide a kurzort, hogy lásd a megerősítések számát.</translation>
+        <translation>交易狀態. 移動游標至欄位上方來顯示確認次數.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Tranzakció fogadásának dátuma és időpontja.</translation>
+        <translation>收到交易的日期與時間.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Tranzakció típusa.</translation>
+        <translation>交易的種類.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>A tranzakció címzettjének címe.</translation>
+        <translation>交易的目標位址.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Az egyenleghez jóváírt vagy ráterhelt összeg.</translation>
+        <translation>減去或加入至餘額的金額</translation>
     </message>
 </context>
 <context>
@@ -2420,57 +2419,57 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Mind</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Mai</translation>
+        <translation>今天</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Ezen a héten</translation>
+        <translation>這週</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Ebben a hónapban</translation>
+        <translation>這個月</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Múlt hónapban</translation>
+        <translation>上個月</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Ebben az évben</translation>
+        <translation>今年</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Tartomány ...</translation>
+        <translation>指定範圍...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>收受於</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>付出至</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Magadnak</translation>
+        <translation>給自己</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>開採所得</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2480,107 +2479,107 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Más</translation>
+        <translation>其他</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Írd be a keresendő címet vagy címkét</translation>
+        <translation>輸入位址或標記來搜尋</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minimális összeg</translation>
+        <translation>最小金額</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Cím másolása</translation>
+        <translation>複製位址</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Címke másolása</translation>
+        <translation>複製標記</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation type="unfinished"></translation>
+        <translation>複製金額</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Címke szerkesztése</translation>
+        <translation>編輯標記</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation type="unfinished"></translation>
+        <translation>顯示交易明細</translation>
     </message>
     <message>
         <location line="+137"/>
         <source>Export Transaction Data</source>
-        <translation>Tranzakció adatainak exportálása</translation>
+        <translation>匯出交易資料</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*.csv)</translation>
+        <translation>逗號分隔資料檔 (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Megerősítve</translation>
+        <translation>已確認</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>標記</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>位址</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>ID</source>
-        <translation>Azonosító</translation>
+        <translation>識別碼</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Hiba lépett fel exportálás közben</translation>
+        <translation>匯出錯誤</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 fájlba való kiírás sikertelen.</translation>
+        <translation>無法寫入至 %1 檔案.</translation>
     </message>
     <message>
         <location line="+95"/>
         <source>Range:</source>
-        <translation>Tartomány:</translation>
+        <translation>範圍:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>meddig</translation>
+        <translation>至</translation>
     </message>
 </context>
 <context>
@@ -2634,48 +2633,55 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
+%s
+建議你使用以下隨機產生的密碼:
+rpcuser=Denemecoinrpc
+rpcpassword=%s
+(你不用記住這個密碼)
+使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同!
+如果這個檔案還不存在, 請在新增時, 設定檔案權限為&quot;只有主人才能讀取&quot;.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished">Elfogadható rejtjelkulcsok (alapértelmezett: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH )
+        <translation type="unfinished">可以接受的加密法 (預設: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
 </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在 IPv4 網路上以通訊埠 %u 聽取 RPC 連線時發生錯誤: %s</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">設定在 IPv6 網路的通訊埠 %u 上聽候 RPC 連線失敗, 退而改用 IPv4 網路: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">和指定的位址繫結, 並總是在該位址聽候連線. IPv6 請用 &quot;[主機]:通訊埠&quot; 這種格式</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Denemecoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法鎖定資料目錄 %s. 也許位元幣已經在執行了.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">資料庫環境 %s 初始化失敗了! 要復原資料, 請*務必先備份該資料夾*, 然後將其中除了錢包檔 wallet.dat 外的東西都刪除掉.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 交易被拒絕了! 有時候會發生這種錯誤, 是因為你錢包中的一些錢已經被花掉了. 比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢, 你現在所用的原來的錢包中卻沒有該筆交易紀錄.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 這筆交易需要至少 %s 的手續費! 因為它的金額太大, 或複雜度太高, 或是使用了最近才剛收到的款項.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2685,22 +2691,22 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+3"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">當最新區塊改變時所要執行的指令 (指令中的 %s 會被取代為區塊的雜湊值)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8336 or testnet: 18336)</source>
-        <translation type="unfinished">JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8336 or testnet: 18336)</translation>
+        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8336, 或若為測試網路: 18336)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">避免與亂搞的節點連線的秒數 (預設: 86400)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">設定高優先權或低手續費的交易資料大小上限為多少位元組 (預設: 27000)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2710,126 +2716,127 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+2"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">這是尚未發表的測試版本 - 使用請自負風險 - 請不要用於開採或商業應用</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unable to bind to %s on this computer. Denemecoin is probably already running.</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen. A Denemecoin valószínűleg fut már.</translation>
+        <translation type="unfinished">無法和這台電腦上的 %s 繫結. 也許位元幣已經在執行了.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
+        <translation type="unfinished">警告: -paytxfee 設定了很高的金額! 這可是你交易付款所要付的手續費.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">警告: 顯示的交易可能不正確! 你可能需要升級, 或者需要等其它的節點升級.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Denemecoin will not work properly.</source>
-        <translation type="unfinished">Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Denemecoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <translation type="unfinished">警告: 請檢查電腦時間與日期是否正確! 位元幣無法在時鐘不準的情況下正常運作.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">警告: 讀取錢包檔 wallet.dat 失敗了! 所有的密鑰都正確讀取了, 但是交易資料或位址簿資料可能會缺少或不正確.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">警告: 錢包檔 wallet.dat 壞掉, 但資料被拯救回來了! 原來的 wallet.dat 會改儲存在 %s, 檔名為 wallet.{timestamp}.bak. 如果餘額或交易資料有誤, 你應該要用備份資料復原回來.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">你必須在下列設定檔中設定 RPC 密碼(rpcpassword=&lt;password&gt;):
+%s
+如果這個檔案還不存在, 請在新增時, 設定檔案權限為&quot;只有主人才能讀取&quot;.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished">Parancssoros és JSON-RPC parancsok elfogadása
+        <translation type="unfinished">接受命令列與 JSON-RPC 指令
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">是否接受外來連線 (預設: 當沒有 -proxy 或 -connect 時預設為 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished">Elérendő csomópont megadása and attempt to keep the connection open</translation>
+        <translation type="unfinished">加入一個要連線的節線, 並試著保持對它的連線暢通</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished">DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
+        <translation type="unfinished">允許對 -addnode, -seednode, -connect 的參數使用域名查詢 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished">JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
-</translation>
+        <translation type="unfinished">只允許從指定網路位址來的 JSON-RPC 連線</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Denemecoin version</source>
-        <translation type="unfinished">Denemecoin verzió</translation>
+        <translation type="unfinished">位元幣版本</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Block creation options:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">區塊產生選項:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法將錢包格式降級</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot initialize keypool</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法將密鑰池初始化</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法解析 -bind 位址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法解析 -externalip 位址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot write default address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">無法寫入預設位址</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished">Csatlakozás csak a megadott csomóponthoz</translation>
+        <translation type="unfinished">只連線至指定節點(可多個)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect through socks proxy</source>
-        <translation type="unfinished">Csatlakozás SOCKS proxyn keresztül</translation>
+        <translation type="unfinished">透過 SOCKS 代理伺服器連線</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">連線到某個節點以取得其它節點的位址, 然後斷線</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2839,7 +2846,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">找出自己的網際網路位址 (預設: 當有聽候連線且沒有 -externalip 時為 1)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2849,13 +2856,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">Denemecoin-generálás leállítása
+        <translation type="unfinished">不生產位元幣
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Done loading</source>
-        <translation type="unfinished">Betöltés befejezve.</translation>
+        <translation type="unfinished">載入完成</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2865,22 +2872,22 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">載入區塊資料庫失敗</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished">Hiba az wallet.dat betöltése közben</translation>
+        <translation type="unfinished">載入檔案 wallet.dat 失敗</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
+        <translation type="unfinished">載入檔案 wallet.dat 失敗: 錢包壞掉了</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Denemecoin</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Denemecoin-kliens szükséges</translation>
+        <translation type="unfinished">載入檔案 wallet.dat 失敗: 此錢包需要新版的 Denemecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2890,27 +2897,27 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 磁碟空間很少!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 交易產生失敗!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 錢包被上鎖了, 無法產生新的交易!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: could not start node</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錯誤: 無法啓動節點</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2920,7 +2927,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在任意的通訊埠聽候失敗. 如果你想的話可以用 -listen=0.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2975,105 +2982,105 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished">kB-onként felajánlandó díj az általad küldött tranzakciókhoz</translation>
+        <translation type="unfinished">交易付款時每 KB 的交易手續費</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">是否允許在找節點時使用域名查詢 (預設: 當沒用 -connect 時為 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Find peers using internet relay chat (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">是否使用網際網路中繼聊天(IRC)來找節點 (預設: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generate coins</source>
-        <translation type="unfinished">Érmék generálása
+        <translation type="unfinished">生產位元幣
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Get help for a command</source>
-        <translation type="unfinished">Segítség egy parancsról
+        <translation type="unfinished">取得指令說明
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">啓動時檢查多少區塊 (預設: 2500, 0 表示全部) {288, 0 ?}</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">區塊檢查的仔細程度 (0 至 4, 預設: 3)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Importing blocks from block database...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">從區塊資料庫匯入區塊中...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">從其它來源的 blk000??.dat 檔匯入區塊</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">資訊</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished">Nincs elég bitcoinod.</translation>
+        <translation type="unfinished">累積金額不足</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -proxy cím: &apos;%s&apos;</translation>
+        <translation type="unfinished">無效的 -proxy 位址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -tor cím: &apos;%s&apos;</translation>
+        <translation type="unfinished">無效的 -tor 位址: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished">Étvénytelen -paytxfee=&lt;összeg&gt; összeg: &apos;%s&apos;</translation>
+        <translation type="unfinished">設定 -paytxfee=&lt;金額&gt; 的金額無效: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation type="unfinished">Étvénytelen összeg</translation>
+        <translation type="unfinished">無效的金額</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>List commands</source>
-        <translation type="unfinished">Parancsok kilistázása
+        <translation type="unfinished">列出指令
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Listen for connections on &lt;port&gt; (default: 8334 or testnet: 18334)</source>
-        <translation type="unfinished">Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8334 or testnet: 18334)</translation>
+        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候連線 (預設: 8334, 或若為測試網路: 18334)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading addresses...</source>
-        <translation type="unfinished">Címek betöltése...</translation>
+        <translation type="unfinished">載入位址中...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading block index...</source>
-        <translation type="unfinished">Blokkindex betöltése...</translation>
+        <translation type="unfinished">載入區塊索引中...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished">Tárca betöltése...</translation>
+        <translation type="unfinished">載入錢包中...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3083,146 +3090,143 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">維持與節點連線數的上限為 &lt;n&gt; 個 (預設: 125)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 個位元組 (預設: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 位元組 (預設: 1000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">只接受與內建的檢查段點吻合的區塊鎖鏈 (預設: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">只和 &lt;net&gt; 網路上的節點連線 (IPv4, IPv6, 或 Tor)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished">Opciók
+        <translation type="unfinished">選項:
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">輸出額外的除錯資訊. 包含了其它所有的 -debug* 選項</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">輸出額外的網路除錯資訊</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished">Jelszó JSON-RPC csatlakozásokhoz
-</translation>
+        <translation type="unfinished">JSON-RPC 連線密碼</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在除錯輸出內容前附加時間</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rebuild blockchain index from current blk000??.dat files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">從目前的區塊檔 blk000??.dat 重建索引</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
-</translation>
+        <translation type="unfinished">重新掃描區塊鎖鏈, 以尋找錢包所遺漏的交易.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescanning...</source>
-        <translation type="unfinished">Újraszkennelés...</translation>
+        <translation type="unfinished">重新掃描中...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished">Háttérben futtatás daemonként és parancsok elfogadása
-</translation>
+        <translation type="unfinished">以背景程式執行並接受指令</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished">SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
+        <translation type="unfinished">SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">選擇 SOCKS 代理伺服器的協定版本(4 或 5, 預設: 5)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send command to -server or Denemecoind</source>
-        <translation type="unfinished">Parancs küldése a -serverhez vagy a Denemecoindhez
+        <translation type="unfinished">送指令至 -server 或 Denemecoind
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished">Parancsok küldése &lt;ip&gt; címen működő csomóponthoz (alapértelmezett: 127.0.0.1)
+        <translation type="unfinished">送指令給在 &lt;ip&gt; 的節點 (預設: 127.0.0.1)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">輸出追蹤或除錯資訊至終端機, 而非 debug.log 檔案</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">輸出追蹤或除錯資訊給除錯器</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished">Szervertanúsítvány-fájl (alapértelmezett: server.cert)
+        <translation type="unfinished">伺服器憑證檔 (預設: server.cert)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished">Szerver titkos kulcsa (alapértelmezett: server.pem)
+        <translation type="unfinished">伺服器密鑰檔 (預設: server.pem)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">設定資料庫快取大小為多少百萬位元組(MB, 預設: 25)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished">Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
+        <translation type="unfinished">設定密鑰池大小為 &lt;n&gt; (預設: 100)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">設定區塊大小上限為多少位元組 (預設: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">設定區塊大小下限為多少位元組 (預設: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">客戶端軟體啓動時將 debug.log 檔縮小 (預設: 當沒有 -debug 時為 1)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3232,24 +3236,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished">Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+        <translation type="unfinished">指定連線在幾毫秒後逾時 (預設: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify data directory</source>
-        <translation type="unfinished">Adatkönyvtár
+        <translation type="unfinished">指定資料目錄
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: Denemecoind.pid)</source>
-        <translation type="unfinished">pid-fájl (alapértelmezett: Denemecoind.pid)
+        <translation type="unfinished">指定行程識別碼檔案 (預設: Denemecoind.pid)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify your own public address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">指定自己公開的位址</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3259,76 +3263,75 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>This help message</source>
-        <translation type="unfinished">Ez a súgó-üzenet
+        <translation type="unfinished">此協助訊息
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">與亂搞的節點斷線的臨界值 (預設: 100)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>To use the %s option</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">為了要使用 %s 選項</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
+        <translation type="unfinished">無法和這台電腦上的 %s 繫結 (繫結回傳錯誤 %d, %s)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在 -socks 指定了不明的代理協定版本: %i</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">在 -onlynet 指定了不明的網路別: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">將錢包升級成最新的格式</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Usage:</source>
-        <translation type="unfinished">Használat:</translation>
+        <translation type="unfinished">用法:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished">OpenSSL (https) használata JSON-RPC csatalkozásokhoz
+        <translation type="unfinished">於 JSON-RPC 連線使用 OpenSSL (https)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+        <translation type="unfinished">是否使用通用即插即用(UPnP)協定來設定聽候連線的通訊埠 (預設: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+        <translation type="unfinished">是否使用通用即插即用(UPnP)協定來設定聽候連線的通訊埠 (預設: 當有聽候連線為 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">透過代理伺服器來使用 Tor 隱藏服務 (預設: 同 -proxy)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use the test network</source>
-        <translation type="unfinished">Teszthálózat használata
+        <translation type="unfinished">使用測試網路
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished">Felhasználói név JSON-RPC csatlakozásokhoz
-</translation>
+        <translation type="unfinished">JSON-RPC 連線使用者名稱</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3338,22 +3341,22 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Verifying wallet integrity...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">驗證錢包資料是否完整中...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart Denemecoin to complete</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包需要重寫: 請重啟位元幣來完成</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation type="unfinished">警告</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">警告: 這個版本已經被淘汰掉了, 必須要升級!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3363,7 +3366,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">錢包檔 weallet.dat 壞掉了, 拯救失敗</translation>
     </message>
 </context>
 </TS>

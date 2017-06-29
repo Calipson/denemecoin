@@ -6,14 +6,14 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Namecoin</source>
-        <translation>Over Namecoin
+        <source>About Denemecoin</source>
+        <translation>Over Denemecoin
 </translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Namecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Namecoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Denemecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,7 +37,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>2009-%1 The Bitcoin and Namecoin developers</source>
+        <source>2009-%1 The Bitcoin and Denemecoin developers</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -70,7 +70,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Namecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Denemecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dit zijn uw Bitcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
@@ -85,7 +85,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Namecoin address</source>
+        <source>Sign a message to prove you own a Denemecoin address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
     </message>
     <message>
@@ -100,7 +100,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Namecoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Denemecoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -236,8 +236,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NAMECOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW Namecoins VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DenemecoinS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW Denemecoins VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -263,8 +263,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Namecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Namecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Namecoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw Namecoins stelen.</translation>
+        <source>Denemecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Denemecoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Denemecoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw Denemecoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -312,14 +312,14 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="+118"/>
-        <source>A fatal error occurred. Namecoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished">Er is een fatale fout opgetreden. Namecoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Denemecoin can no longer continue safely and will quit.</source>
+        <translation type="unfinished">Er is een fatale fout opgetreden. Denemecoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+74"/>
         <location line="+565"/>
-        <source>Namecoin</source>
-        <translation type="unfinished">Namecoin</translation>
+        <source>Denemecoin</source>
+        <translation type="unfinished">Denemecoin</translation>
     </message>
     <message>
         <location line="-565"/>
@@ -343,7 +343,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Namecoin address</source>
+        <source>Send coins to a Denemecoin address</source>
         <translation type="unfinished">Verstuur munten naar een Bitcoinadres</translation>
     </message>
     <message>
@@ -383,7 +383,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Manage names registered via Namecoin</source>
+        <source>Manage names registered via Denemecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -398,13 +398,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Namecoin</source>
-        <translation type="unfinished">&amp;Over Namecoin</translation>
+        <source>&amp;About Denemecoin</source>
+        <translation type="unfinished">&amp;Over Denemecoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Namecoin</source>
-        <translation type="unfinished">Laat informatie zien over Namecoin</translation>
+        <source>Show information about Denemecoin</source>
+        <translation type="unfinished">Laat informatie zien over Denemecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -423,8 +423,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Namecoin</source>
-        <translation type="unfinished">Wijzig instellingen van Namecoin</translation>
+        <source>Modify configuration options for Denemecoin</source>
+        <translation type="unfinished">Wijzig instellingen van Denemecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -473,7 +473,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Namecoin addresses to prove you own them</source>
+        <source>Sign messages with your Denemecoin addresses to prove you own them</source>
         <translation type="unfinished">Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
@@ -483,7 +483,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Namecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Denemecoin addresses</source>
         <translation type="unfinished">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
     </message>
     <message>
@@ -540,12 +540,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-5"/>
         <location line="+5"/>
-        <source>Namecoin client</source>
-        <translation type="unfinished">Namecoin client</translation>
+        <source>Denemecoin client</source>
+        <translation type="unfinished">Denemecoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+81"/>
-        <source>%n active connection(s) to Namecoin network</source>
+        <source>%n active connection(s) to Denemecoin network</source>
         <translation type="unfinished">
             <numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform>
             <numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform>
@@ -682,7 +682,7 @@ Adres: %4
     <message>
         <location line="-28"/>
         <location line="+28"/>
-        <source>URI can not be parsed! This can be caused by an invalid Namecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Denemecoin address or malformed URI parameters.</source>
         <translation type="unfinished">URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
@@ -862,7 +862,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-26"/>
-        <source>Namecoin address to which the name is assigned</source>
+        <source>Denemecoin address to which the name is assigned</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -877,7 +877,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+322"/>
-        <source>The Namecoin address to transfer
+        <source>The Denemecoin address to transfer
 the domain to, e.g.
 N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9
 
@@ -984,7 +984,7 @@ Leave empty, if not needed.</source>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Namecoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Denemecoin address.</source>
         <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Bitcoinadres</translation>
     </message>
     <message>
@@ -1003,8 +1003,8 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../guiutil.cpp" line="+423"/>
         <location line="+12"/>
-        <source>Namecoin-Qt</source>
-        <translation>Namecoin-Qt</translation>
+        <source>Denemecoin-Qt</source>
+        <translation>Denemecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1057,12 +1057,12 @@ Leave empty, if not needed.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Enter a name or domain name (prefixed with d/) to be registered via Namecoin.</source>
+        <source>Enter a name or domain name (prefixed with d/) to be registered via Denemecoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt; prefix for domain names. E.g. &lt;span style=&quot; font-weight:600;&quot;&gt;d/mysite&lt;/span&gt; will register &lt;span style=&quot; font-weight:600;&quot;&gt;mysite.bit&lt;/span&gt; (note: domains can be lower-case only, valid characters are alphanumeric and hyphen; hyphen can&apos;t be first/last character).&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; in Namecoin wiki for reference. Other prefixes can be used for miscellaneous purposes (not domain names).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use &lt;span style=&quot; font-weight:600;&quot;&gt;d/&lt;/span&gt; prefix for domain names. E.g. &lt;span style=&quot; font-weight:600;&quot;&gt;d/mysite&lt;/span&gt; will register &lt;span style=&quot; font-weight:600;&quot;&gt;mysite.bit&lt;/span&gt; (note: domains can be lower-case only, valid characters are alphanumeric and hyphen; hyphen can&apos;t be first/last character).&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://dot-bit.org/Namespace:Domain_names&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Domain names&lt;/span&gt;&lt;/a&gt; in Denemecoin wiki for reference. Other prefixes can be used for miscellaneous purposes (not domain names).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1093,7 +1093,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+16"/>
-        <source>Enter Namecoin address (or prefix of it)</source>
+        <source>Enter Denemecoin address (or prefix of it)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1238,7 +1238,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+140"/>
-        <source>Name registered using Namecoin.</source>
+        <source>Name registered using Denemecoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1248,7 +1248,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Namecoin address to which the name is registered.</source>
+        <source>Denemecoin address to which the name is registered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1281,13 +1281,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Namecoin after logging in to the system.</source>
-        <translation>Start Namecoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Denemecoin after logging in to the system.</source>
+        <translation>Start Denemecoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Namecoin on system login</source>
-        <translation>&amp;Start Namecoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Denemecoin on system login</source>
+        <translation>&amp;Start Denemecoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1306,8 +1306,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Namecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Namecoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Denemecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Denemecoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1316,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Namecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Namecoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Denemecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Denemecoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1391,8 +1391,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Namecoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Namecoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Denemecoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Denemecoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1406,7 +1406,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Namecoin addresses in the transaction list or not.</source>
+        <source>Whether to show Denemecoin addresses in the transaction list or not.</source>
         <translation>Of Bitcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
@@ -1458,8 +1458,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Namecoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Namecoin.</translation>
+        <source>This setting will take effect after restarting Denemecoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Denemecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1477,7 +1477,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+51"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Namecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Denemecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
@@ -1541,7 +1541,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+108"/>
-        <source>Cannot start namecoin: click-to-pay handler</source>
+        <source>Cannot start Denemecoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1691,8 +1691,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Namecoin-Qt help message to get a list with possible Namecoin command-line options.</source>
-        <translation>Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Namecoin commandoregel-opties.</translation>
+        <source>Show the Denemecoin-Qt help message to get a list with possible Denemecoin command-line options.</source>
+        <translation>Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Denemecoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1711,13 +1711,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="-104"/>
-        <source>Namecoin - Debug window</source>
-        <translation>Namecoin-debugscherm</translation>
+        <source>Denemecoin - Debug window</source>
+        <translation>Denemecoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Namecoin Core</source>
-        <translation>Namecoin Kern</translation>
+        <source>Denemecoin Core</source>
+        <translation>Denemecoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1726,8 +1726,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Namecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het namecoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the Denemecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Denemecoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1736,8 +1736,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Namecoin RPC console.</source>
-        <translation>Welkom bij de Namecoin RPC-console.</translation>
+        <source>Welcome to the Denemecoin RPC console.</source>
+        <translation>Welkom bij de Denemecoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1920,7 +1920,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Namecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
+        <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
         <translation>Vul een Bitcoinadres in (bijv. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
 </context>
@@ -1985,7 +1985,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Namecoin address</source>
+        <source>Sign the message to prove you own this Denemecoin address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
     </message>
     <message>
@@ -2021,7 +2021,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Namecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Denemecoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -2037,7 +2037,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+26"/>
         <location line="+3"/>
-        <source>Enter a Namecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
+        <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
         <translation>Vul een Bitcoinadres in (bijv. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
@@ -2047,8 +2047,8 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Namecoin signature</source>
-        <translation>Voer Namecoin-handtekening in</translation>
+        <source>Enter Denemecoin signature</source>
+        <translation>Voer Denemecoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2612,7 +2612,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
     <message>
         <location line="+38"/>
-        <source>Invalid Namecoin address</source>
+        <source>Invalid Denemecoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2632,13 +2632,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     </message>
 </context>
 <context>
-    <name>namecoin-core</name>
+    <name>Denemecoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=namecoinrpc
+rpcuser=Denemecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2646,7 +2646,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 </source>
         <translation type="unfinished">%s, u moet een rpcpassword instellen in het configuratiebestand: %s
 Het wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=namecoinrpc
+rpcuser=Denemecoinrpc
 rpcpassword=%s
 (U hoeft het wachtwoord niet te onthouden)
 De gebruikersnaam en het wachtwoord mogen NIET OVEREENKOMEN.
@@ -2674,8 +2674,8 @@ Als het bestand niet bestaat, maak het aan met een alleen-lezen-permissie.</tran
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Namecoin is probably already running.</source>
-        <translation type="unfinished">Kan geen lock op de datamap %s verkrijgen. Namecoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Denemecoin is probably already running.</source>
+        <translation type="unfinished">Kan geen lock op de datamap %s verkrijgen. Denemecoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2729,8 +2729,8 @@ Als het bestand niet bestaat, maak het aan met een alleen-lezen-permissie.</tran
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Namecoin is probably already running.</source>
-        <translation type="unfinished">Niet in staat om aan %s te binden op deze computer. Namecoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Denemecoin is probably already running.</source>
+        <translation type="unfinished">Niet in staat om aan %s te binden op deze computer. Denemecoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2744,8 +2744,8 @@ Als het bestand niet bestaat, maak het aan met een alleen-lezen-permissie.</tran
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Namecoin will not work properly.</source>
-        <translation type="unfinished">Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Namecoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Denemecoin will not work properly.</source>
+        <translation type="unfinished">Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Denemecoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2800,7 +2800,7 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Namecoin version</source>
+        <source>Denemecoin version</source>
         <translation type="unfinished">Bitcoinversie</translation>
     </message>
     <message>
@@ -2896,8 +2896,8 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Namecoin</source>
-        <translation type="unfinished">Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Namecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Denemecoin</source>
+        <translation type="unfinished">Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Denemecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3182,8 +3182,8 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or namecoind</source>
-        <translation type="unfinished">Stuur commando naar -server of namecoind
+        <source>Send command to -server or Denemecoind</source>
+        <translation type="unfinished">Stuur commando naar -server of Denemecoind
 </translation>
     </message>
     <message>
@@ -3258,8 +3258,8 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: namecoind.pid)</source>
-        <translation type="unfinished">Specifieer pid-bestand (standaard: namecoind.pid)
+        <source>Specify pid file (default: Denemecoind.pid)</source>
+        <translation type="unfinished">Specifieer pid-bestand (standaard: Denemecoind.pid)
 </translation>
     </message>
     <message>
@@ -3358,8 +3358,8 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Namecoin to complete</source>
-        <translation type="unfinished">Portemonnee moest herschreven worden: Herstart Namecoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Denemecoin to complete</source>
+        <translation type="unfinished">Portemonnee moest herschreven worden: Herstart Denemecoin om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>

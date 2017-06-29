@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<TS version="2.0" language="da">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Denemecoin</source>
-        <translation>A Bitcoinról</translation>
+        <translation>Om Denemecoin</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Denemecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; verzió</translation>
+        <translation>&lt;b&gt;Denemecoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -23,10 +23,11 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Ez egy kísérleti program.
-MIT/X11 szoftverlicenc alatt kiadva, lásd a mellékelt fájlt COPYING vagy http://www.opensource.org/licenses/mit-license.php.
+Dette program er ekperimentielt.
 
-Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (http://www.openssl.org/) és kriptográfiai szoftvertben való felhasználásra,  írta Eric Young (eay@cryptsoft.com) és UPnP szoftver, írta Thomas Bernard.</translation>
+Det er gjort tilgængeligt under MIT/X11 softwarelicensen. Se den tilhørende fil &quot;COPYING&quot; eller http://www.opensource.org/licenses/mit-license.php.
+
+Produktet indeholder software som er udviklet af OpenSSL Project til brug i OpenSSL Toolkit (http://www.openssl.org/), kryptografisk software skrevet af Eric Young (eay@cryptsoft.com) og UPnP-software skrevet by Thomas Bernard.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+17"/>
@@ -44,37 +45,37 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Címjegyzék</translation>
+        <translation>Adressebog</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dupla-katt a cím vagy a címke szerkesztéséhez</translation>
+        <translation>Dobbeltklik for at redigere adresse eller mærkat</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Új cím létrehozása</translation>
+        <translation>Opret en ny adresse</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>A kiválasztott cím másolása a vágólapra</translation>
+        <translation>Kopier den valgte adresse til systemets udklipsholder</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Új cím</translation>
+        <translation>&amp;Ny adresse</translation>
     </message>
     <message>
         <location line="-46"/>
         <source>These are your Denemecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a Denemecoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <translation>Dette er dine Bitcoinadresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+60"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Cím másolása</translation>
+        <translation>&amp;Kopier adresse</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -109,17 +110,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Törlés</translation>
+        <translation>&amp;Slet</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Címke &amp;másolása</translation>
+        <translation>Kopier &amp;etiket</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>R&amp;ediger</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -129,22 +130,22 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+263"/>
         <source>Export Address Book Data</source>
-        <translation>Címjegyzék adatainak exportálása</translation>
+        <translation>Eksporter Adressekartoteketsdata</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*. csv)</translation>
+        <translation>Kommasepareret fil (*. csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Hiba exportálás közben</translation>
+        <translation>Fejl under eksport</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 nevű fájl nem írható.</translation>
+        <translation>Kunne ikke skrive til filen %1.</translation>
     </message>
 </context>
 <context>
@@ -152,17 +153,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location filename="../addresstablemodel.cpp" line="+146"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(nincs címke)</translation>
+        <translation>(ingen etiket)</translation>
     </message>
 </context>
 <context>
@@ -175,72 +176,72 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Add meg a jelszót</translation>
+        <translation>Indtast adgangskode</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Új jelszó</translation>
+        <translation>Ny adgangskode</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Új jelszó újra</translation>
+        <translation>Gentag ny adgangskode</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Írd be az új jelszót a tárcához.&lt;br/&gt;Használj legalább 10&lt;br/&gt;véletlenszerű karaktert&lt;/b&gt; vagy &lt;b&gt;legalább nyolc szót&lt;/b&gt;.</translation>
+        <translation>Indtast den nye adgangskode til tegnebogen.&lt;br/&gt;Brug venligst en adgangskode på &lt;b&gt;10 eller flere tilfældige tegn&lt;/b&gt;, eller &lt;b&gt;otte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Tárca kódolása</translation>
+        <translation>Krypter tegnebog</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>A tárcád megnyitásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>Denne funktion har brug for din tegnebogs kodeord for at låse tegnebogen op.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Tárca megnyitása</translation>
+        <translation>Lås tegnebog op</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>A tárcád dekódolásához a műveletnek szüksége van a tárcád jelszavára.</translation>
+        <translation>Denne funktion har brug for din tegnebogs kodeord for at dekryptere tegnebogen.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Tárca dekódolása</translation>
+        <translation>Dekryptér tegnebog</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Jelszó megváltoztatása</translation>
+        <translation>Skift adgangskode</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Írd be a tárca régi és új jelszavát.</translation>
+        <translation>Indtast den gamle og nye adgangskode til tegnebogen.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Bekræft tegnebogskryptering</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DenemecoinS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <translation>Advarsel: Hvis du krypterer din tegnebog og mister dit kodeord vil du &lt;b&gt;miste alle dine Denemecoins&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Biztosan kódolni akarod a tárcát?</translation>
+        <translation>Er du sikker på at du ønsker at kryptere din tegnebog?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -257,12 +258,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Tárca kódolva</translation>
+        <translation>Tegnebog krypteret</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Denemecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Denemecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Denemecoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <translation type="unfinished">Denemecoin will close now to finish the encryption process. Husk, at kryptere din tegnebog vil ikke fuldt ud beskytte dine Denemecoins mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -270,40 +271,40 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Tárca kódolása sikertelen.</translation>
+        <translation>Tegnebogskryptering mislykkedes</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Tárca kódolása belső hiba miatt sikertelen. A tárcád nem lett kódolva.</translation>
+        <translation>Tegnebogskryptering mislykkedes på grund af en intern fejl. Din tegnebog blev ikke krypteret.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>A megadott jelszavak nem egyeznek.</translation>
+        <translation>De angivne kodeord stemmer ikke overens.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Tárca megnyitása sikertelen</translation>
+        <translation>Tegnebogsoplåsning mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Hibás jelszó.</translation>
+        <translation>Det angivne kodeord for tegnebogsdekrypteringen er forkert.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekódolás sikertelen.</translation>
+        <translation>Tegnebogsdekryptering mislykkedes</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Jelszó megváltoztatva.</translation>
+        <translation>Tegnebogskodeord blev ændret.</translation>
     </message>
 </context>
 <context>
@@ -322,57 +323,57 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="-565"/>
         <source>Wallet</source>
-        <translation type="unfinished">Tárca</translation>
+        <translation type="unfinished">tegnebog</translation>
     </message>
     <message>
         <location line="+142"/>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Áttekintés</translation>
+        <translation type="unfinished">&amp;Oversigt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation type="unfinished">Tárca általános áttekintése</translation>
+        <translation type="unfinished">Vis generel oversigt over tegnebog</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send coins</source>
-        <translation type="unfinished">Érmék &amp;küldése</translation>
+        <translation type="unfinished">&amp;Send coins</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send coins to a Denemecoin address</source>
-        <translation type="unfinished">Érmék küldése megadott címre</translation>
+        <translation type="unfinished">Send coins til en bitcoinadresse</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Receive coins</source>
-        <translation type="unfinished">Érmék &amp;fogadása</translation>
+        <translation type="unfinished">&amp;Modtag coins</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation type="unfinished">Kiizetést fogadó címek listája</translation>
+        <translation type="unfinished">Vis listen over adresser for at modtage betalinger</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Tranzakciók</translation>
+        <translation type="unfinished">&amp;Transaktioner</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Tranzakciótörténet megtekintése</translation>
+        <translation type="unfinished">Gennemse transaktionshistorik</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Address Book</source>
-        <translation type="unfinished">Cím&amp;jegyzék</translation>
+        <translation type="unfinished">&amp;Adressebog</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation type="unfinished">Tárolt címek és címkék listájának szerkesztése</translation>
+        <translation type="unfinished">Rediger listen over gemte adresser og etiketter</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -387,42 +388,42 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+19"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished">&amp;Kilépés</translation>
+        <translation type="unfinished">&amp;Luk</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation type="unfinished">Kilépés</translation>
+        <translation type="unfinished">Afslut program</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;About Denemecoin</source>
-        <translation type="unfinished">&amp;A Bitcoinról</translation>
+        <translation type="unfinished">&amp;Om Denemecoin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Denemecoin</source>
-        <translation type="unfinished">Információk a Bitcoinról</translation>
+        <translation type="unfinished">Vis oplysninger om Denemecoin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">A &amp;Qt-ról</translation>
+        <translation type="unfinished">Om &amp;Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished">Információk a Qt ról</translation>
+        <translation type="unfinished">Vis oplysninger om Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation type="unfinished">&amp;Opciók...</translation>
+        <translation type="unfinished">&amp;Indstillinger ...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Modify configuration options for Denemecoin</source>
-        <translation type="unfinished">Denemecoin konfigurációs opciók</translation>
+        <translation type="unfinished">Rediger konfigurationsindstillinger af Denemecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -437,7 +438,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+1"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished">Tárca &amp;kódolása...</translation>
+        <translation type="unfinished">&amp;Kryptér tegnebog...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -447,7 +448,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+2"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Backup tegnebog...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -457,12 +458,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+1"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished">Jelszó &amp;megváltoztatása...</translation>
+        <translation type="unfinished">&amp;Skift adgangskode...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation type="unfinished">Tárcakódoló jelszó megváltoztatása</translation>
+        <translation type="unfinished">Skift kodeord anvendt til tegnebogskryptering</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -487,12 +488,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+2"/>
         <source>&amp;Export...</source>
-        <translation type="unfinished">&amp;Exportálás...</translation>
+        <translation type="unfinished">&amp;Eksporter...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Jelenlegi nézet exportálása fájlba</translation>
+        <translation type="unfinished">Eksportér den aktuelle visning til en fil</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -507,33 +508,33 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+25"/>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fájl</translation>
+        <translation type="unfinished">&amp;Fil</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Beállítások</translation>
+        <translation type="unfinished">&amp;Indstillinger</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Súgó</translation>
+        <translation type="unfinished">&amp;Hjælp</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation type="unfinished">Fül eszköztár</translation>
+        <translation type="unfinished">Faneværktøjslinje</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Actions toolbar</source>
-        <translation type="unfinished">Parancsok eszköztár</translation>
+        <translation type="unfinished">Handlingsværktøjslinje</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+81"/>
         <source>[testnet]</source>
-        <translation type="unfinished">[teszthálózat]</translation>
+        <translation type="unfinished">[testnet]</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -545,13 +546,14 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+81"/>
         <source>%n active connection(s) to Denemecoin network</source>
         <translation type="unfinished">
-            <numerusform>%n aktív kapcsolat a Denemecoin-hálózattal</numerusform>
+            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoinnetværket</numerusform>
+            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoinnetværket</numerusform>
         </translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Synchronizing with network...</source>
-        <translation type="unfinished">Szinkronizálás a hálózattal...</translation>
+        <translation type="unfinished">Synkroniserer med netværk ...</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -576,12 +578,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+6"/>
         <source>Up to date</source>
-        <translation type="unfinished">Naprakész</translation>
+        <translation type="unfinished">Opdateret</translation>
     </message>
     <message numerus="yes">
         <location line="+14"/>
         <source>%n hour(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -590,12 +593,14 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -607,7 +612,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+5"/>
         <source>Catching up...</source>
-        <translation type="unfinished">Frissítés...</translation>
+        <translation type="unfinished">Indhenter...</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -622,12 +627,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+21"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation type="unfinished">Advarsel</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -647,12 +652,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+23"/>
         <source>Sent transaction</source>
-        <translation type="unfinished">Tranzakció elküldve.</translation>
+        <translation type="unfinished">Afsendt transaktion</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation type="unfinished">Beérkező tranzakció</translation>
+        <translation type="unfinished">Indgående transaktion</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -661,10 +666,10 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished">Dátum: %1
-Összeg: %2
-Típus: %3
-Cím: %4
+        <translation type="unfinished">Dato: %1
+Beløb: %2
+Type: %3
+Adresse: %4
 </translation>
     </message>
     <message>
@@ -682,17 +687,17 @@ Cím: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;nyitva&lt;/b&gt;.</translation>
+        <translation type="unfinished">Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;ulåst&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation type="unfinished">Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
+        <translation type="unfinished">Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Backup Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Backup tegnebog</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -836,7 +841,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+35"/>
         <source>Choose address from address book</source>
-        <translation type="unfinished">Válassz egy címet a címjegyzékből</translation>
+        <translation type="unfinished">Vælg adresse fra adressebog</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -846,7 +851,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Cím beillesztése a vágólapról</translation>
+        <translation type="unfinished">Indsæt adresse fra udklipsholderen</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -929,67 +934,67 @@ Leave empty, if not needed.</source>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Cím szerkesztése</translation>
+        <translation>Rediger Adresse</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>Cím&amp;ke</translation>
+        <translation>&amp;Etiket</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>A címhez tartozó címke</translation>
+        <translation>Etiketten forbundet med denne post i adressekartoteket</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Cím</translation>
+        <translation>&amp;Adresse</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Az ehhez a címjegyzék-bejegyzéshez tartozó cím. Ez csak a küldő címeknél módosítható.</translation>
+        <translation>Adressen tilknyttet til denne post i adressekartoteket. Dette kan kun ændres for afsendelsesadresser.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Új fogadó cím</translation>
+        <translation>Ny modtagelsesadresse</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Új küldő cím</translation>
+        <translation>Ny afsendelsesadresse</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Fogadó cím szerkesztése</translation>
+        <translation>Rediger modtagelsesadresse</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Küldő cím szerkesztése</translation>
+        <translation>Rediger afsendelsesadresse</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
+        <translation>Den indtastede adresse &quot;%1&quot; er allerede i adressebogen.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Denemecoin address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes Denemecoin-cím.</translation>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig bitcoinadresse.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Tárca feloldása sikertelen</translation>
+        <translation>Kunne ikke låse tegnebog op.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Új kulcs generálása sikertelen</translation>
+        <translation>Ny nøglegenerering mislykkedes.</translation>
     </message>
 </context>
 <context>
@@ -1003,22 +1008,22 @@ Leave empty, if not needed.</source>
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>verzió</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Használat:</translation>
+        <translation>Anvendelse:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>command-line indstillinger</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI opciók</translation>
+        <translation>UI indstillinger</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1028,7 +1033,7 @@ Leave empty, if not needed.</source>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Indítás lekicsinyítve
+        <translation>Start minimeret
 </translation>
     </message>
     <message>
@@ -1200,12 +1205,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+16"/>
         <source>Error exporting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Fejl under eksport</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kunne ikke skrive til filen %1.</translation>
     </message>
 </context>
 <context>
@@ -1228,7 +1233,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">Cím</translation>
+        <translation type="unfinished">Adresse</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -1256,32 +1261,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Opciók</translation>
+        <translation>Indstillinger</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Fő</translation>
+        <translation>&amp;Generelt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Opcionális, kB-onkénti tranzakciós díj a tranzakcióid minél gyorsabb feldolgozásának elősegítésére.  A legtöbb tranzakció 1 kB-os.  0,01 NMC ajánlott.</translation>
+        <translation>Valgfri transaktionsgebyr pr. kB, der hjælper dine transaktioner med at blive behandlet hurtigt. De fleste transaktioner er på 1 kB. Gebyr på 0.01 anbefales.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Tranzakciós &amp;díj fizetése</translation>
+        <translation>Betal transaktions&amp;gebyr</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Denemecoin after logging in to the system.</source>
-        <translation>Induljon el a Denemecoin a számítógép bekapcsolásakor</translation>
+        <translation>Start Denemecoin automatisk efter at computeren er tændt</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Denemecoin on system login</source>
-        <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
+        <translation>&amp;Start Denemecoin når systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1301,32 +1306,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+6"/>
         <source>Automatically open the Denemecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Denemecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <translation>Åbn Bitcoinklient-porten på routeren automatisk. Dette virker kun når din router understøtter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>&amp;UPnP port-feltérképezés</translation>
+        <translation>Konfigurer port vha. &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Denemecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a Denemecoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <translation>Opret forbindelse til Bitconnetværket via en SOCKS proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Csatlakozás SOCKS proxyn keresztül:</translation>
+        <translation>&amp;Forbind gennem SOCKS proxy:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Proxy-&amp;IP:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Proxy IP címe (pl.: 127.0.0.1)</translation>
+        <translation>IP-adressen på proxyen (f.eks. 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1336,7 +1341,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy portja (pl.: 9050)</translation>
+        <translation>Porten på proxyen (f.eks. 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1356,27 +1361,27 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Kicsinyítés után csak eszköztár-ikont mutass</translation>
+        <translation>Vis kun et systembakkeikon efter minimering af vinduet.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Kicsinyítés a tálcára az eszköztár helyett</translation>
+        <translation>&amp;Minimer til systembakken i stedet for proceslinjen</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Az alkalmazásból való kilépés helyett az eszköztárba kicsinyíti az alkalmazást az ablak bezárásakor. Ez esetben az alkalmazás csak a Kilépés menüponttal zárható be.</translation>
+        <translation>Minimer i stedet for at afslutte programmet når vinduet lukkes. Når denne indstilling er valgt vil programmet kun blive lukket når du har valgt Afslut i menuen.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>K&amp;icsinyítés záráskor</translation>
+        <translation>M&amp;inimer ved lukning</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Megjelenítés</translation>
+        <translation>&amp;Visning</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -1391,12 +1396,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Mértékegység:</translation>
+        <translation>&amp;Enhed at vise beløb i:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
+        <translation>Vælg den standard underopdelingsenhed som skal vises i brugergrænsefladen, og når du sender coins.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1406,7 +1411,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Címek megjelenítése a tranzakciólistában</translation>
+        <translation>&amp;Vis adresser i transaktionensliste</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1447,7 +1452,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Figyelem</translation>
+        <translation>Advarsel</translation>
     </message>
     <message>
         <location line="-9"/>
@@ -1458,7 +1463,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ugyldig -proxy adresse</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1471,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>Formular</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -1477,22 +1482,22 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-141"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Number of transactions:</source>
-        <translation>Tranzakciók száma:</translation>
+        <translation>Antal transaktioner:</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Unconfirmed:</source>
-        <translation>Megerősítetlen:</translation>
+        <translation>Ubekræftede:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Tárca</translation>
+        <translation>tegnebog</translation>
     </message>
     <message>
         <location line="+124"/>
@@ -1507,22 +1512,22 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Legutóbbi tranzakciók&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Nyeste transaktioner&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-118"/>
         <source>Your current balance</source>
-        <translation>Aktuális egyenleged</translation>
+        <translation>Din nuværende saldo</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Még megerősítésre váró, a jelenlegi egyenlegbe be nem számított tranzakciók</translation>
+        <translation>Summen af ​​transaktioner, der endnu ikke er bekræftet, og endnu ikke er inkluderet i den nuværende saldo</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Total number of transactions in wallet</source>
-        <translation>Tárca összes tranzakcióinak száma</translation>
+        <translation>Samlede antal transaktioner i tegnebogen</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+115"/>
@@ -1554,17 +1559,17 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Összeg:</translation>
+        <translation>Beløb:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Címke:</translation>
+        <translation>Etiket:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Üzenet:</translation>
+        <translation>Besked:</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1681,7 +1686,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>Command-line indstillinger</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1726,7 +1731,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation>Ryd</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1756,17 +1761,17 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Érmék küldése</translation>
+        <translation>Send Coins</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Küldés több címzettnek egyszerre</translation>
+        <translation>Send til flere modtagere på én gang</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Címzett hozzáadása</translation>
+        <translation>&amp;Tilføj modtager</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1776,12 +1781,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>Ryd &amp;alle</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Egyenleg:</translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1791,57 +1796,57 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>Bekræft afsendelsen</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;Küldés</translation>
+        <translation>&amp;Afsend</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; %2-re (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; til %2 (%3)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Küldés megerősítése</translation>
+        <translation>Bekræft afsendelse af coins</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Valóban el akarsz küldeni %1-t?</translation>
+        <translation>Er du sikker på at du vil sende %1?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> és</translation>
+        <translation> og </translation>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>A címzett címe érvénytelen, kérlek, ellenőrizd.</translation>
+        <translation>Modtagerens adresse er ikke gyldig. Tjek venligst adressen igen.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>A fizetendő összegnek nagyobbnak kell lennie 0-nál.</translation>
+        <translation>Beløbet til betaling skal være større end 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi Denemecoin az egyenlegeden.</translation>
+        <translation>Beløbet overstiger din saldo.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>A küldeni kívánt összeg és a %1 tranzakciós díj együtt meghaladja az egyenlegeden rendelkezésedre álló összeget.</translation>
+        <translation>Totalen overstiger din saldo når %1 transaktionsgebyr er inkluderet.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
+        <translation>Duplikeret adresse fundet. Du kan kun sende til hver adresse en gang pr. afsendelse.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1851,7 +1856,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Hiba: a tranzakciót elutasították. Ezt az okozhatja, ha már elköltöttél valamennyi érmét a tárcádból például ha a wallet.dat-od egy másolatát használtad, és így az elköltés csak abban lett jelölve, de itt nem.</translation>
+        <translation>Fejl: Transaktionen blev afvist. Dette kan ske hvis nogle af dine coins i din tegnebog allerede var brugt, som hvis du brugte en kopi af wallet.dat og dine coins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
 </context>
 <context>
@@ -1859,17 +1864,17 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation>Formular</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Összeg:</translation>
+        <translation>B&amp;eløb:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Címzett:</translation>
+        <translation>Betal &amp;Til:</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1880,18 +1885,17 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
-</translation>
+        <translation>Indtast en etiket for denne adresse for at føje den til din adressebog</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>Címke:</translation>
+        <translation>&amp;Etiket:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>Vælg adresse fra adressebog</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1901,7 +1905,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>Indsæt adresse fra udklipsholderen</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1911,12 +1915,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Címzett eltávolítása</translation>
+        <translation>Fjern denne modtager</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Indtast en Bitcoinadresse (f.eks. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
 </context>
 <context>
@@ -1939,13 +1943,13 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Indtast en Bitcoinadresse (f.eks. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Válassz egy címet a címjegyzékből</translation>
+        <translation>Vælg adresse fra adressebog</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1956,7 +1960,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Cím beillesztése a vágólapról</translation>
+        <translation>Indsæt adresse fra udklipsholderen</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1997,7 +2001,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Mindent &amp;töröl</translation>
+        <translation>Ryd &amp;alle</translation>
     </message>
     <message>
         <location line="-87"/>
@@ -2012,7 +2016,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Indtast en Bitcoinadresse (f.eks. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2033,7 +2037,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location filename="../signverifymessagedialog.cpp" line="+26"/>
         <location line="+3"/>
         <source>Enter a Denemecoin address (e.g. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</source>
-        <translation>Adj meg egy Denemecoin-címet (pl.: N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9 )</translation>
+        <translation>Indtast en Bitcoinadresse (f.eks. N1KHAL5C1CRzy58NdJwp1tbLze3XrkFxx9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2109,7 +2113,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiondesc.cpp" line="+21"/>
         <source>Open until %1</source>
-        <translation>Megnyitva %1-ig</translation>
+        <translation>Åben indtil %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2119,29 +2123,30 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/megerősítetlen</translation>
+        <translation>%1/ubekræftet</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 megerősítés</translation>
+        <translation>%1 bekræftelser</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Állapot</translation>
+        <translation>Status</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Dato</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2151,20 +2156,20 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>Legenerálva</translation>
+        <translation>Genereret</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>Űrlap</translation>
+        <translation>Fra</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+88"/>
         <source>To</source>
-        <translation>Címzett</translation>
+        <translation>Til</translation>
     </message>
     <message>
         <location line="-107"/>
@@ -2175,7 +2180,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>címke</translation>
+        <translation>etiket</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2184,19 +2189,20 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+16"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Jóváírás</translation>
+        <translation>Kredit</translation>
     </message>
     <message numerus="yes">
         <location line="-171"/>
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>elutasítva</translation>
+        <translation>ikke accepteret</translation>
     </message>
     <message>
         <location line="+74"/>
@@ -2209,27 +2215,27 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location line="+14"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Terhelés</translation>
+        <translation>Debet</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Tranzakciós díj</translation>
+        <translation>Transaktionsgebyr</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Nettó összeg</translation>
+        <translation>Nettobeløb</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Üzenet</translation>
+        <translation>Besked</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Megjegyzés</translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2239,7 +2245,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>A frissen generált érméket csak 120 blokkal később tudod elkölteni.  Ez a blokk nyomban szétküldésre került a hálózatba, amint legeneráltad, hogy hozzáadhassák a blokklánchoz.  Ha nem kerül be a láncba, úgy az állapota &quot;elutasítva&quot;-ra módosul,  és nem költheted el az érméket. Ez akkor következhet be időnként, ha egy másik csomópont mindössze néhány másodperc különbséggel generált le egy blokkot a tiédhez képest.</translation>
+        <translation>Genererede coins skal vente 120 blokke, før de kan blive brugt. Da du  genererede denne blok blev det transmitteret til netværket, for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot;, og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden node genererer en blok inden for få sekunder af din.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2249,7 +2255,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Tranzakció</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2259,19 +2265,20 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="-254"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, még nem sikerült elküldeni.</translation>
+        <translation>, er ikke blevet transmitteret endnu</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>ismeretlen</translation>
+        <translation>ukendt</translation>
     </message>
 </context>
 <context>
@@ -2279,12 +2286,12 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Tranzakció részletei</translation>
+        <translation>Transaktionsdetaljer</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ez a mező a tranzakció részleteit mutatja</translation>
+        <translation>Denne rude viser en detaljeret beskrivelse af transaktionen</translation>
     </message>
 </context>
 <context>
@@ -2292,91 +2299,93 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location filename="../transactiontablemodel.cpp" line="+227"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Dato</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>Beløb</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>%1-ig megnyitva</translation>
+        <translation>Åben indtil %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 megerősítés)</translation>
+        <translation>Offline (%1 bekræftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Megerősítetlen (%1 %2 megerősítésből)</translation>
+        <translation>Ubekræftet (%1 af %2 bekræftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Megerősítve (%1 megerősítés)</translation>
+        <translation>Bekræftet (%1 bekræftelser)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ezt a blokkot egyetlen másik csomópont sem kapta meg, így valószínűleg nem lesz elfogadva!</translation>
+        <translation>Denne blok blev ikke modtaget af nogen andre noder, og vil formentlig ikke blive accepteret!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Legenerálva, de még el nem fogadva.</translation>
+        <translation>Genereret, men ikke accepteret</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>Modtaget med</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Erről az</translation>
+        <translation>Modtaget fra</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>Sendt til</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Magadnak kifizetve</translation>
+        <translation>Betaling til dig selv</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>Minerede</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2386,32 +2395,32 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+41"/>
         <source>(n/a)</source>
-        <translation>(nincs)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <location line="+200"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Tranzakció állapota. Húzd ide a kurzort, hogy lásd a megerősítések számát.</translation>
+        <translation>Transactionsstatus. Hold musen over dette felt for at vise antallet af bekræftelser.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Tranzakció fogadásának dátuma és időpontja.</translation>
+        <translation>Dato og tid for at transaktionen blev modtaget.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Tranzakció típusa.</translation>
+        <translation>Type af transaktion.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>A tranzakció címzettjének címe.</translation>
+        <translation>Destinationsadresse for transaktion.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Az egyenleghez jóváírt vagy ráterhelt összeg.</translation>
+        <translation>Beløb fjernet eller tilføjet balance.</translation>
     </message>
 </context>
 <context>
@@ -2420,57 +2429,57 @@ to the network and creates a pending name_firstupdate transaction.</source>
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Mind</translation>
+        <translation>Alle</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Mai</translation>
+        <translation>I dag</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Ezen a héten</translation>
+        <translation>Denne uge</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Ebben a hónapban</translation>
+        <translation>Denne måned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Múlt hónapban</translation>
+        <translation>Sidste måned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Ebben az évben</translation>
+        <translation>Dette år</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Tartomány ...</translation>
+        <translation>Interval...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Erre a címre</translation>
+        <translation>Modtaget med</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Erre a címre</translation>
+        <translation>Sendt til</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Magadnak</translation>
+        <translation>Til dig selv</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Kibányászva</translation>
+        <translation>Minerede</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2480,27 +2489,27 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Más</translation>
+        <translation>Andet</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Írd be a keresendő címet vagy címkét</translation>
+        <translation>Indtast adresse eller etiket for at søge</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minimális összeg</translation>
+        <translation>Min. beløb</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Cím másolása</translation>
+        <translation>Kopier adresse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Címke másolása</translation>
+        <translation>Kopier etiket</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2510,7 +2519,7 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Címke szerkesztése</translation>
+        <translation>Rediger etiket</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2520,67 +2529,67 @@ to the network and creates a pending name_firstupdate transaction.</source>
     <message>
         <location line="+137"/>
         <source>Export Transaction Data</source>
-        <translation>Tranzakció adatainak exportálása</translation>
+        <translation>Eksportér Transaktionsdata</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Vesszővel elválasztott fájl (*.csv)</translation>
+        <translation>Kommasepareret fil (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Megerősítve</translation>
+        <translation>Bekræftet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Dato</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Típus</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Címke</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Összeg</translation>
+        <translation>Beløb</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>ID</source>
-        <translation>Azonosító</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Hiba lépett fel exportálás közben</translation>
+        <translation>Fejl under eksport</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1 fájlba való kiírás sikertelen.</translation>
+        <translation>Kunne ikke skrive til filen %1.</translation>
     </message>
     <message>
         <location line="+95"/>
         <source>Range:</source>
-        <translation>Tartomány:</translation>
+        <translation>Interval:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>meddig</translation>
+        <translation>til</translation>
     </message>
 </context>
 <context>
@@ -2639,7 +2648,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+10"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished">Elfogadható rejtjelkulcsok (alapértelmezett: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH )
+        <translation type="unfinished">Acceptabele ciphers (standard: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
 </translation>
     </message>
     <message>
@@ -2690,7 +2699,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+3"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8336 or testnet: 18336)</source>
-        <translation type="unfinished">JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8336 or testnet: 18336)</translation>
+        <translation type="unfinished">Lyt til JSON-RPC-forbindelser på &lt;port&gt; (standard: 8336 or testnet: 18336)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2715,12 +2724,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+3"/>
         <source>Unable to bind to %s on this computer. Denemecoin is probably already running.</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen. A Denemecoin valószínűleg fut már.</translation>
+        <translation type="unfinished">Kunne ikke binde sig til %s på denne computer. Denemecoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
+        <translation type="unfinished">Advarsel: -paytxfee er sat meget højt! Dette er det gebyr du vil betale, hvis du sender en transaktion.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2730,7 +2739,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Denemecoin will not work properly.</source>
-        <translation type="unfinished">Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Denemecoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <translation type="unfinished">Advarsel: Undersøg venligst at din computers dato og klokkeslet er korrekt indstillet! Hvis der er fejl i disse vil Denemecoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2752,28 +2761,28 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+5"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished">Parancssoros és JSON-RPC parancsok elfogadása
+        <translation type="unfinished">Accepter kommandolinje- og JSON-RPC-kommandoer
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Acceptér forbindelser udefra (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished">Elérendő csomópont megadása and attempt to keep the connection open</translation>
+        <translation type="unfinished">Tilføj en node til at forbinde til and attempt to keep the connection open</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished">DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
+        <translation type="unfinished">Tillad DNS-opslag for addnode og connect</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished">JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
+        <translation type="unfinished">Tillad JSON-RPC-forbindelser fra bestemt IP-adresse
 </translation>
     </message>
     <message>
@@ -2784,7 +2793,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Denemecoin version</source>
-        <translation type="unfinished">Denemecoin verzió</translation>
+        <translation type="unfinished">Bitcoinversion</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,12 +2828,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished">Csatlakozás csak a megadott csomóponthoz</translation>
+        <translation type="unfinished">Tilslut kun til den angivne node</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect through socks proxy</source>
-        <translation type="unfinished">Csatlakozás SOCKS proxyn keresztül</translation>
+        <translation type="unfinished">Tilslut via SOCKS proxy</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2849,13 +2858,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">Denemecoin-generálás leállítása
+        <translation type="unfinished">Generér ikke coins
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Done loading</source>
-        <translation type="unfinished">Betöltés befejezve.</translation>
+        <translation type="unfinished">Indlæsning gennemført</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2870,17 +2879,17 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished">Hiba az wallet.dat betöltése közben</translation>
+        <translation type="unfinished">Fejl ved indlæsning af wallet.dat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
+        <translation type="unfinished">Fejl ved indlæsning af wallet.dat: Tegnebog ødelagt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Denemecoin</source>
-        <translation type="unfinished">Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Denemecoin-kliens szükséges</translation>
+        <translation type="unfinished">Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Denemecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2890,7 +2899,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2975,7 +2984,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished">kB-onként felajánlandó díj az általad küldött tranzakciókhoz</translation>
+        <translation type="unfinished">Gebyr pr. kB, som skal tilføjes til transaktioner du sender</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2990,13 +2999,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Generate coins</source>
-        <translation type="unfinished">Érmék generálása
+        <translation type="unfinished">Generér coins
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Get help for a command</source>
-        <translation type="unfinished">Segítség egy parancsról
+        <translation type="unfinished">Få hjælp til en kommando
 </translation>
     </message>
     <message>
@@ -3027,53 +3036,53 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished">Nincs elég bitcoinod.</translation>
+        <translation type="unfinished">Du har ikke penge nok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -proxy cím: &apos;%s&apos;</translation>
+        <translation type="unfinished">Ugyldig -proxy adresse: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished">Érvénytelen -tor cím: &apos;%s&apos;</translation>
+        <translation type="unfinished">Ugyldig -tor address: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished">Étvénytelen -paytxfee=&lt;összeg&gt; összeg: &apos;%s&apos;</translation>
+        <translation type="unfinished">Ugyldigt beløb for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation type="unfinished">Étvénytelen összeg</translation>
+        <translation type="unfinished">Ugyldigt beløb</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>List commands</source>
-        <translation type="unfinished">Parancsok kilistázása
+        <translation type="unfinished">Liste over kommandoer
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Listen for connections on &lt;port&gt; (default: 8334 or testnet: 18334)</source>
-        <translation type="unfinished">Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8334 or testnet: 18334)</translation>
+        <translation type="unfinished">Lyt til forbindelser på &lt;port&gt; (standard: 8334 or testnet: 18334)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading addresses...</source>
-        <translation type="unfinished">Címek betöltése...</translation>
+        <translation type="unfinished">Indlæser adresser...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading block index...</source>
-        <translation type="unfinished">Blokkindex betöltése...</translation>
+        <translation type="unfinished">Indlæser blok-indeks...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished">Tárca betöltése...</translation>
+        <translation type="unfinished">Indlæser tegnebog...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3108,7 +3117,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Options:</source>
-        <translation type="unfinished">Opciók
+        <translation type="unfinished">Indstillinger:
 </translation>
     </message>
     <message>
@@ -3124,7 +3133,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished">Jelszó JSON-RPC csatlakozásokhoz
+        <translation type="unfinished">Password til JSON-RPC-forbindelser
 </translation>
     </message>
     <message>
@@ -3140,24 +3149,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished">Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
+        <translation type="unfinished">Gennemsøg blokkæden for manglende tegnebogstransaktioner
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescanning...</source>
-        <translation type="unfinished">Újraszkennelés...</translation>
+        <translation type="unfinished">Genindlæser...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished">Háttérben futtatás daemonként és parancsok elfogadása
+        <translation type="unfinished">Kør i baggrunden som en service, og acceptér kommandoer
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished">SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
+        <translation type="unfinished">SSL-indstillinger: (se Bitcoin Wiki for SSL opsætningsinstruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3167,13 +3176,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Send command to -server or Denemecoind</source>
-        <translation type="unfinished">Parancs küldése a -serverhez vagy a Denemecoindhez
+        <translation type="unfinished">Send kommando til -server eller Denemecoind
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished">Parancsok küldése &lt;ip&gt; címen működő csomóponthoz (alapértelmezett: 127.0.0.1)
+        <translation type="unfinished">Send kommandoer til node, der kører på &lt;ip&gt; (standard: 127.0.0.1)
 </translation>
     </message>
     <message>
@@ -3189,13 +3198,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished">Szervertanúsítvány-fájl (alapértelmezett: server.cert)
+        <translation type="unfinished">Servercertifikat-fil (standard: server.cert)
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished">Szerver titkos kulcsa (alapértelmezett: server.pem)
+        <translation type="unfinished">Server private nøgle (standard: server.pem)
 </translation>
     </message>
     <message>
@@ -3206,7 +3215,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished">Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
+        <translation type="unfinished">Sæt nøglepoolstørrelse til &lt;n&gt; (standard: 100)
 </translation>
     </message>
     <message>
@@ -3232,18 +3241,18 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished">Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+        <translation type="unfinished">Angiv tilslutningstimeout i millisekunder (standard: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify data directory</source>
-        <translation type="unfinished">Adatkönyvtár
+        <translation type="unfinished">Angiv databibliotek
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: Denemecoind.pid)</source>
-        <translation type="unfinished">pid-fájl (alapértelmezett: Denemecoind.pid)
+        <translation type="unfinished">Angiv pid-fil (default: Denemecoind.pid)
 </translation>
     </message>
     <message>
@@ -3259,7 +3268,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>This help message</source>
-        <translation type="unfinished">Ez a súgó-üzenet
+        <translation type="unfinished">Denne hjælpebesked
 </translation>
     </message>
     <message>
@@ -3275,7 +3284,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished">A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
+        <translation type="unfinished">Kunne ikke binde sig til %s på denne computer (bind returned error %d, %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3295,23 +3304,23 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Usage:</source>
-        <translation type="unfinished">Használat:</translation>
+        <translation type="unfinished">Anvendelse:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished">OpenSSL (https) használata JSON-RPC csatalkozásokhoz
+        <translation type="unfinished">Brug OpenSSL (https) for JSON-RPC-forbindelser
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+        <translation type="unfinished">Forsøg at bruge UPnP til at kofnigurere den lyttende port (standard: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished">UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+        <translation type="unfinished">Forsøg at bruge UPnP til at kofnigurere den lyttende port (standard: 1 when listening)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3321,13 +3330,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Use the test network</source>
-        <translation type="unfinished">Teszthálózat használata
+        <translation type="unfinished">Brug test-netværket
 </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished">Felhasználói név JSON-RPC csatlakozásokhoz
+        <translation type="unfinished">Brugernavn til JSON-RPC-forbindelser
 </translation>
     </message>
     <message>
@@ -3348,7 +3357,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location line="+1"/>
         <source>Warning</source>
-        <translation type="unfinished">Figyelem</translation>
+        <translation type="unfinished">Advarsel</translation>
     </message>
     <message>
         <location line="+1"/>

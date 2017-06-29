@@ -1,4 +1,4 @@
-Namecoin
+Denemecoin
 ===================
 
 Denemecoin is a decentralized key/value registration and transfer system based on Bitcoin technology (a decentralized cryptocurrency).
